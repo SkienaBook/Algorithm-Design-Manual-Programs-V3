@@ -1,0 +1,14 @@
+1:  8 6 4
+2:  9 7 5 3
+3:  5 2
+4:  10 6 1
+5:  6 3 2
+6:  10 8 5 4 1
+7:  9 2
+8:  6 1
+9:  7 2
+10:  6 4
+parent articulation vertex: 2 
+parent articulation vertex: 5 
+bridge articulation vertex: 6 
+bridge articulation vertex: 5 

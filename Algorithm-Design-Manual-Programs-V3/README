@@ -1,0 +1,159 @@
+Copyright 2003-2020 by Steven S. Skiena; all rights reserved. 
+Permission is granted for use in non-commerical applications
+provided this copyright notice remains intact and unchanged.
+
+These programs all appear in my books:
+
+"The Algorithm Design Manual" by Steven Skiena, second edition, Springer,
+London 2008.  See out website www.algorist.com for additional information
+or https://www.amazon.com/exec/obidos/ASIN/1848000693/thealgorith01-20
+
+"Programming Challenges: The Programming Contest Training Manual"
+by Steven Skiena and Miguel Revilla, Springer-Verlag, New York 2003.
+See our website www.programming-challenges.com for additional information,
+or http://www.amazon.com/exec/obidos/ASIN/0387001638/thealgorithmrepo/
+
+
+What follows are a list of all the files in this directory with a
+brief description of what they are:
+
+10055.c		 program demonstrating standard IO in C
+10055.cc	 program demonstrating standard IO in C++
+10055.java	 program demonstrating standard IO in Java
+10055.pascal	 program demonstrating standard IO in Pascal
+
+8-queens.c	 solve the eight queens problem using backtracking
+
+Makefile	 instructions on how to compile all of our programs
+
+README		 this file; a description of all programs in distribution
+
+annealing.c	 a generic implementation of simulated annealing
+annealing.h      header file for simulated annealing
+
+backtrack.c	 a generic implementation of backtracking
+backtrack.h	 header file for generic backtracking
+
+bfs-demo.c	 driver program demonstrating breadth-first search
+bfs-dfs.c	 a generic implementation of graph traversal
+bfs-dfs.h	 header file for graph traversal
+
+biconnected.c	 find biconnected components in a graph
+
+bignum.c	 implementation of large integer arithmetic
+binomial.c	 compute the binomial coefficients using dynamic programming
+bipartite.c	 two-color a given graph if it is possible
+
+bool-old.h	 previous boolean type header
+
+cgtest.c	 driver program for computational geometry routines
+
+code-fragments	 directory to store extracted code snippets for book
+
+connected.c	 compute connected components of a graph
+convex-hull.c	 compute convex hulls of points in the plane
+convolve.c	 implementation of simple convolution
+countedges.c	 simple traveral example to count edges in graph.
+
+datafiles/	 directory with test files for all programs, see test-script.sh
+
+dfs-demo.c	 driver program demonstrating depth-first search
+dijkstra.c	 compute shortest paths in weighted graphs
+
+distance.c	 compute Euclidian distances
+distance.h	 header file for geometry programs
+
+editbrute.c	 compute string edit distance *without* dynamic programming
+editdistance.c	 a generic implementation of string comparison via dp
+editdistance.h	 header file for string comparison
+
+elevator.c	 elevator stop optimization via dynamic programming
+
+extract_code.py	 utlity routine to extract code snippets for book
+
+fib.c		 Fibonacci number computation
+findcycle.c	 identify a cycle in a graph, if one exists
+floyd.c		 compute all-pairs shortest paths in weighted graphs
+gcd.c		 compute the greatest common divisor of two integers
+
+geometry.c	 basic geometric primitives and data types
+geometry.h	 header file for geometric data types
+geotest.c	 driver program for geometry routines
+
+graph.c		 a generic adjacency list-in-array graph data type
+graph.h		 header file for graph data type
+item.h		 header file for generic item type
+
+kruskal.c	 minimum spanning tree by kruskal's algorithm
+
+list-demo.c	 linked list implementation
+list.h		 header file for linked lists
+
+lcs.c		 longest common subsequence of two strings
+matrix.c	 matrix multiplication implementation
+name.c		 corporate name changing program -- string example
+netflow.c	 network flow implementation -- augmenting path algorithm
+order.c		 demonstrate traversal orders on a grid
+
+original	 earlier version of these codes
+
+permutations.c	 construct all permutations via backtracking
+plates.c	 compute the number of circles in two different packings
+polly.c		 rank the desirability of suitors -- sorting example
+prim.c		 compute minimum spanning trees of graphs via Prim's algorithm
+primes.c	 compute the prime factorization of an integer
+
+priority_queue.c heap implementation
+priority_queue.h header file for priority queues
+
+queue.c		 implementation of a FIFO queue abstract data type
+queue.h		 header file for queue implementation
+
+random.c	 compute random numbers within given ranges
+random.h	 header file for random numbers
+sentinel.c	 example search program using sentinels
+
+set_union.c	 implementation of union-find data structure
+set_union.h	 header file for union-find
+
+sorting.c	 implementations of primary sorting algorithms
+
+stack.c		 implementation of a LIFO stack abstract data type
+stack.h		 header file for stack
+
+stringedit.c	 compute the optimal alignment matching two strings
+strong.c	 find the strongly connected components of a directed graph (Tarjan)
+strong1.c	 find the strongly connected components of a directed graph (Kosaraju-Sharir)
+
+subsets.c	 construct all subsets via backtracking
+subsetsum.c	 implementation of subset sum via dynamic programming
+substringedit.c	 approximately match one string as a substring of another
+sudoku.c	 solve sudoku puzzles by backtracking
+
+superman.c	 compute Superman's flight path -- geometry example
+
+test-script*	 run tests on each of the programs created by Makefile
+
+tmp/		 directory of old stuff that should probably be deleted		
+
+topsort.c	 topologically sort a DAG (delete in-degree 0 vertices)
+topsort1.c	 topologically sort a DAG (back edge on DFS)
+
+tree-demo.c	 binary search tree implementation
+tree.h		 header file for binary trees
+
+triangulate.c	 triangulate a polygon via ear-clipping, and compute area
+
+tsp-astar.c	 backtracking approaches to TSP, including A*
+tsp-astar.h	 header file for A* search
+tsp-pq.c	 priority queue implementation for A* TSP solutions
+tsp-pq.h	 header file for A* TSP priority queue
+
+tsp.c		 simulated annealing approach to TSP
+tsp.h		 header for simulated annealing TSP
+
+war.c		 simulation of the children's card game War
+
+wgraph.c	 a generic weighted graph data type
+wgraph.h	 header file for weighted graph type
+

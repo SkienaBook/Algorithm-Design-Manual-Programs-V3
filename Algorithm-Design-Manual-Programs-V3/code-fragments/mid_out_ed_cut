@@ -1,0 +1,5 @@
+void match_out(char *s, char *t, int i, int j) {
+    if (s[i] == t[j]) {
+        printf("%c", s[i]);
+    }
+}

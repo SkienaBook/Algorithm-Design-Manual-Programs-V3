@@ -1,0 +1,20 @@
+long binomial_coefficient(int n, int k) {
+    int i, j;                   /* counters */
+    long bc[MAXN+1][MAXN+1];    /* binomial coefficient table */
+
+    for (i = 0; i <= n; i++) {
+        bc[i][0] = 1;
+    }
+
+    for (j = 0; j <= n; j++) {
+        bc[j][j] = 1;
+    }
+
+    for (i = 2; i <= n; i++) {
+        for (j = 1; j < i; j++) {
+            bc[i][j] = bc[i-1][j-1] + bc[i-1][j];
+        }
+    }
+
+    return(bc[n][k]);
+}

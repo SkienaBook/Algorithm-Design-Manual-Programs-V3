@@ -1,0 +1,6 @@
+int find(union_find *s, int x) {
+    if (s->p[x] == x) {
+        return(x);
+    }
+    return(find(s, s->p[x]));
+}

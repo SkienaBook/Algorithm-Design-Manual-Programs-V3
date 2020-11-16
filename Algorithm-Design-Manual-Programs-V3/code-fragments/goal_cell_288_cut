@@ -1,0 +1,12 @@
+void goal_cell(char *s, char *t, int *i, int *j) {
+    int k;    /* counter */
+
+    *i = strlen(s) - 1;
+    *j = 0;
+
+    for (k = 1; k < strlen(t); k++) {
+        if (m[*i][k].cost < m[*i][*j].cost) {
+            *j = k;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+void construct_candidates(int a[], int k, boardtype *board, int c[], int *nc) {
+    int i;                       /* counter */
+    bool possible[DIMENSION+1];  /* which digits fit in this square */
+
+    next_square(&(board->move[k]), board);  /* pick square to fill next */
+
+    *nc = 0;
+
+    if ((board->move[k].x < 0) && (board->move[k].y < 0)) {
+        return;    /* error condition, no moves possible */
+    }
+
+    possible_values(board->move[k], board, possible);
+    for (i = 1; i <= DIMENSION; i++) {
+        if (possible[i]) {
+            c[*nc] = i;
+            *nc = *nc + 1;
+        }
+    }
+}

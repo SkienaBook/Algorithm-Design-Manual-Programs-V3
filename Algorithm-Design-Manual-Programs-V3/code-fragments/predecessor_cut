@@ -1,0 +1,11 @@
+list *item_ahead(list *l, list *x) {
+    if ((l == NULL) || (l->next == NULL)) {
+        return(NULL);
+    }
+
+    if ((l->next) == x) {
+        return(l);
+    } else {
+        return(item_ahead(l->next, x));
+    }
+}

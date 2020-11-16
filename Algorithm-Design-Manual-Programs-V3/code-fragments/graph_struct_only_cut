@@ -1,0 +1,7 @@
+typedef struct {
+    edgenode *edges[MAXV+1];  /* adjacency info */
+    int degree[MAXV+1];       /* outdegree of each vertex */
+    int nvertices;            /* number of vertices in the graph */
+    int nedges;               /* number of edges in the graph */
+    int directed;             /* is the graph directed? */
+} graph;

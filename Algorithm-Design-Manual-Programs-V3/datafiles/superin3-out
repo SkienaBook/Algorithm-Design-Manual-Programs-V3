@@ -1,0 +1,12 @@
+100.000 100.000
+  0.000   0.000
+5
+ 20.000  21.000  25.000
+ 20.000   0.000  19.000
+ 50.000  45.000  40.000
+  0.000  50.000  20.000
+ 95.000  95.000   0.000
+circle 1 ( 20.000, 21.000, 25.000) is   0.707 away from l, xray= 49.980 around= 77.125 angle=  1.543.
+circle 2 ( 20.000,  0.000, 19.000) is  14.142 away from l, xray= 75.357 around=104.914 angle=  0.731.
+circle 3 ( 50.000, 45.000, 40.000) is   3.536 away from l, xray=155.044 around=223.497 angle=  1.482.
+Superman sees through 155.044 units, and flies 209.875 units

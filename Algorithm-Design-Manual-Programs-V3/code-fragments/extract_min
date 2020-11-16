@@ -1,0 +1,14 @@
+item_type extract_min(priority_queue *q) {
+    int min = -1;    /* minimum value */
+
+    if (q->n <= 0) {
+        printf("Warning: empty priority queue.\n");
+    } else {
+        min = q->q[1];
+
+        q->q[1] = q->q[q->n];
+        q->n = q->n - 1;
+        bubble_down(q, 1);
+    }
+    return(min);
+}

@@ -1,0 +1,35 @@
+void topsort(graph *g, int sorted[]) {
+    int indegree[MAXV+1];    /* indegree of each vertex */
+    queue zeroin;            /* vertices of indegree 0 */
+    int x, y;                /* current and next vertex */
+    int i, j;                /* counters */
+    edgenode *p;             /* temporary pointer */
+
+    compute_indegrees(g, indegree);
+    init_queue(&zeroin);
+    for (i = 1; i <= g->nvertices; i++) {
+        if (indegree[i] == 0) {
+            enqueue(&zeroin, i);
+        }
+    }
+
+    j = 0;
+    while (!empty_queue(&zeroin)) {
+        j = j + 1;
+        x = dequeue(&zeroin);
+        sorted[j] = x;
+        p = g->edges[x];
+        while (p != NULL) {
+            y = p->y;
+            indegree[y]--;
+            if (indegree[y] == 0) {
+                enqueue(&zeroin, y);
+            }
+            p = p->next;
+        }
+    }
+
+    if (j != g->nvertices) {
+        printf("Not a DAG -- only %d vertices found\n", j);
+    }
+}

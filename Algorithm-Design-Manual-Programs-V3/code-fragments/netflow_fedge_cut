@@ -1,0 +1,14 @@
+edgenode *find_edge(flow_graph *g, int x, int y) {
+    edgenode *p;    /* temporary pointer */
+
+    p = g->edges[x];
+
+    while (p != NULL) {
+        if (p->v == y) {
+            return(p);
+        }
+        p = (edgenode*)p->next;
+    }
+
+    return(NULL);
+}

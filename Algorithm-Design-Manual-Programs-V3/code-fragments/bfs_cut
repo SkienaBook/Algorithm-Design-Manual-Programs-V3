@@ -1,0 +1,30 @@
+void bfs(graph *g, int start) {
+    queue q;            /* queue of vertices to visit */
+    int v;              /* current vertex */
+    int y;              /* successor vertex */
+    edgenode *p;        /* temporary pointer */
+
+    init_queue(&q);
+    enqueue(&q, start);
+    discovered[start] = true;
+
+    while (!empty_queue(&q)) {
+        v = dequeue(&q);
+        process_vertex_early(v);
+        processed[v] = true;
+        p = g->edges[v];
+        while (p != NULL) {
+            y = p->y;
+            if ((!processed[y]) || g->directed) {
+                process_edge(v, y);
+            }
+            if (!discovered[y]) {
+                enqueue(&q,y);
+                discovered[y] = true;
+                parent[y] = v;
+	    }
+            p = p->next;
+        }
+        process_vertex_late(v);
+    }
+}

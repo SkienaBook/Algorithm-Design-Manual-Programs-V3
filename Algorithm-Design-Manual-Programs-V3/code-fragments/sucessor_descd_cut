@@ -1,0 +1,12 @@
+tree *successor_descendant(tree *t) {
+    tree *succ;                     /* successor pointer */
+
+    if (t->right == NULL) {
+        return(NULL);
+    }
+    succ = t->right;
+    while (succ->left != NULL) {
+        succ = succ->left;
+    }
+    return(succ);
+}

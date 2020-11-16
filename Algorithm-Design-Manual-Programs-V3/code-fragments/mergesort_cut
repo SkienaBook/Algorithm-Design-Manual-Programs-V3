@@ -1,0 +1,11 @@
+void merge_sort(item_type s[], int low, int high) {
+    int middle;    /* index of middle element */
+
+    if (low < high) {
+        middle = (low + high) / 2;
+        merge_sort(s, low, middle);
+        merge_sort(s, middle + 1, high);
+
+        merge(s, low, middle, high);
+    }
+}

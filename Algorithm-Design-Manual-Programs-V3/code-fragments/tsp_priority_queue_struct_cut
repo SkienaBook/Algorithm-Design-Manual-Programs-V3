@@ -1,0 +1,4 @@
+typedef struct {
+    tsp_solution q[PQ_SIZE+1];	    /* body of queue */
+    int n;                      /* number of queue elements */
+} priority_queue;

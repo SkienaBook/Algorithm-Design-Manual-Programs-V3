@@ -1,0 +1,33 @@
+
+Below is an example showing the \code{sum} and \code{parents} table
+for input set $S=\{1,2,4,8\} and target $k=11$.
+The true in the lower right corner signals that the sum is realizable.
+Because $S$ here represents all the powers of twos, and every target integer
+can be written in binary, the entire bottom row consists of trues:
+
+\begin{center}
+\begin{tabular}{cc|ccccccccccc}
+ i & s[i] & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\
+\hline
+ 0 & 0 & T & F & F & F & F & F & F & F & F & F & F & F  \\
+ 1 & 1 & T & T & F & F & F & F & F & F & F & F & F & F  \\
+ 2 & 2 & T & T & T & T & F & F & F & F & F & F & F & F  \\
+ 3 & 4 & T & T & T & T & T & T & T & T & F & F & F & F  \\
+ 4 & 8 & T & T & T & T & T & T & T & T & T & T & T & T  \\
+\end{tabular}
+
+This is the state of the parents array, encoding the solution $1 + 2 + 8 = 11$:
+The 3 in the lower right corner reflects that $11 - 8 = 3$.
+The bolded cells represent those encountered on the walk back to recover the solution.
+
+\begin{center}
+\begin{tabular}{cc|ccccccccccc}
+ i & s[i] & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\
+\hline
+0 & 0 & {\bf -1} & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 \\
+1 & 1 & -1 & {\bf 0} & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 \\
+2 & 2 & -1 & -1 & 0 & {\bf 1} & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 \\
+3 & 4 & -1 & -1 & -1 & {\bf -1} & 0 & 1 & 2 & 3 & -1 & -1 & -1 & -1 \\
+4 & 8 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & -1 & 0 & 1 & 2 & {\bf 3} \\
+\end{tabular}
+

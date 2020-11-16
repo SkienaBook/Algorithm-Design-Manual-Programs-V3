@@ -1,0 +1,3 @@
+void process_edge(int x, int y) {
+    printf("processed edge (%d,%d)\n", x, y);
+}

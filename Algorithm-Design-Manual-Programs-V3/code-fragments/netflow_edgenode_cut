@@ -1,0 +1,7 @@
+typedef struct {
+    int v;                  /* neighboring vertex */
+    int capacity;           /* capacity of edge */
+    int flow;               /* flow through edge */
+    int residual;           /* residual capacity of edge */
+    struct edgenode *next;  /* next edge in list */
+} edgenode;

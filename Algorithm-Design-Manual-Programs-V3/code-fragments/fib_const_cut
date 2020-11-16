@@ -1,0 +1,3 @@
+#define MAXN    92      /* largest n for which F(n) fits in a long */
+#define UNKNOWN -1      /* contents denote an empty cell */
+long f[MAXN+1];         /* array for caching fib values */

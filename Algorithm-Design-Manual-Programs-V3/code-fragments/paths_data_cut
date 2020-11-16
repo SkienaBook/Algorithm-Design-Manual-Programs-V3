@@ -1,0 +1,5 @@
+typedef struct {
+    int s;                     /* source vertex */
+    int t;                     /* destination vertex */
+    graph g;                   /* graph to find paths in */
+} paths_data;

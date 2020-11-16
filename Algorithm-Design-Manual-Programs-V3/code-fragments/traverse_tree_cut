@@ -1,0 +1,7 @@
+void traverse_tree(tree *l) {
+    if (l != NULL) {
+        traverse_tree(l->left);
+        process_item(l->item);
+        traverse_tree(l->right);
+    }
+}

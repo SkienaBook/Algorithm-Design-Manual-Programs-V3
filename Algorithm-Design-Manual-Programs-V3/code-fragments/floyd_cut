@@ -1,0 +1,16 @@
+void floyd(adjacency_matrix *g) {
+    int i, j;           /* dimension counters */
+    int k;              /* intermediate vertex counter */
+    int through_k;      /* distance through vertex k */
+
+    for (k = 1; k <= g->nvertices; k++) {
+        for (i = 1; i <= g->nvertices; i++) {
+            for (j = 1; j <= g->nvertices; j++) {
+                through_k = g->weight[i][k]+g->weight[k][j];
+                if (through_k < g->weight[i][j]) {
+                    g->weight[i][j] = through_k;
+                }
+	    }
+	}
+    }
+}

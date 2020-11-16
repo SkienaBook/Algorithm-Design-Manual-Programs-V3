@@ -1,0 +1,10 @@
+void bubble_up(priority_queue *q, int p) {
+    if (pq_parent(p) == -1) {
+        return;    /* at root of heap, no parent */
+    }
+
+    if (q->q[pq_parent(p)].cost  > q->q[p].cost ) {
+        pq_swap(q, p, pq_parent(p));
+        bubble_up(q, pq_parent(p));
+    }
+}

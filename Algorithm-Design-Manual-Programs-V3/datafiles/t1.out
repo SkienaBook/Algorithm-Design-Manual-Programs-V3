@@ -1,0 +1,22 @@
+new item: 6
+new item: 5
+new item: 3
+new item: 4
+new item: 7
+new item: 8
+new item: 9
+3 4 5 6 7 8 9 
+ deleting item 7
+3 4 5 6 8 9 
+ deleting item 3
+4 5 6 8 9 
+ deleting item 6
+4 5 8 9 
+ deleting item 5
+4 8 9 
+ deleting item 4
+8 9 
+ deleting item 8
+9 
+ deleting item 9
+

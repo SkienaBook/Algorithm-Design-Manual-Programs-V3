@@ -1,0 +1,24 @@
+
+item 1 not found
+new item: 1
+item 1 found
+item 2 not found
+1 
+new item: 2
+1 2 
+new item: 3
+1 2 3 
+item 1 found
+item 2 found
+item 3 found
+item 4 not found
+1 2 3 
+ deleting item 1
+2 3 
+2 3 
+ deleting item 3
+2 
+2 
+ deleting item 2
+
+

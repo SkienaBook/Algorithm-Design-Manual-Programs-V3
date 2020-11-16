@@ -1,0 +1,11 @@
+void initialize_search(graph *g) {
+    int i;                  /* counter */
+
+    time = 0;
+
+    for (i = 0; i <= g->nvertices; i++) {
+        processed[i] = false;
+        discovered[i] = false;
+        parent[i] = -1;
+    }
+}

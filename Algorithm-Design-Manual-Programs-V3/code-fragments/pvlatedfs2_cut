@@ -1,0 +1,35 @@
+void process_vertex_late(int v) {
+    bool root;              /* is parent[v] the root of the DFS tree? */
+    int time_v;             /* earliest reachable time for v */
+    int time_parent;        /* earliest reachable time for parent[v] */
+
+    if (parent[v] == -1) {  /* test if v is the root */
+        if (tree_out_degree[v] > 1) {
+            printf("root articulation vertex: %d \n",v);
+        }
+        return;
+    }
+
+    root = (parent[parent[v]] == -1);       /* is parent[v] the root? */
+
+    if (!root) {
+        if (reachable_ancestor[v] == parent[v]) {
+            printf("parent articulation vertex: %d \n", parent[v]);
+        }
+  
+        if (reachable_ancestor[v] == v) {
+            printf("bridge articulation vertex: %d \n",parent[v]);
+
+            if (tree_out_degree[v] > 0) {    /* is v is not a leaf? */
+                printf("bridge articulation vertex: %d \n", v);
+            }
+        }
+    }
+
+    time_v = entry_time[reachable_ancestor[v]];
+    time_parent = entry_time[reachable_ancestor[parent[v]]];
+
+    if (time_v < time_parent) {
+        reachable_ancestor[parent[v]] = reachable_ancestor[v];
+    }
+}

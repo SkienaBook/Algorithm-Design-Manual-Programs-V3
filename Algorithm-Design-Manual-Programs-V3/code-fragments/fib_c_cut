@@ -1,0 +1,7 @@
+long fib_c(int n) {
+    if (f[n] == UNKNOWN) { 
+        f[n] = fib_c(n-1) + fib_c(n-2);
+    }
+
+    return(f[n]);
+}

@@ -1,0 +1,16 @@
+1:  2
+2:  6 5 3
+3:  7 4
+4:  8 3
+5:  6 1
+6:  7
+7:  8 6
+8:  8
+8 is in component 1 
+6 is in component 2 
+7 is in component 2 
+3 is in component 3 
+4 is in component 3 
+1 is in component 4 
+5 is in component 4 
+2 is in component 4 

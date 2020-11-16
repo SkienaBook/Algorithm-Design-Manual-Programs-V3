@@ -1,0 +1,27 @@
+void strong_components(graph *g) {
+    graph *gt;           /* transpose of graph g */
+    int i;               /* counter */
+    int v;               /* vertex in component */
+
+    init_stack(&dfs1order);
+    initialize_search(g);
+    for (i = 1; i <= (g->nvertices); i++) {
+        if (!discovered[i]) {
+            dfs(g, i);
+        }
+    }
+
+    gt = transpose(g);
+    initialize_search(gt);
+
+    components_found = 0;
+    while (!empty_stack(&dfs1order)) {
+        v = pop(&dfs1order);
+        if (!discovered[v]) {
+            components_found ++;
+            printf("Component %d:", components_found);
+            dfs2(gt, v);
+            printf("\n");
+        }
+    }
+}

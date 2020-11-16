@@ -1,0 +1,18 @@
+void insert_tree(tree **l, item_type x, tree *parent) {
+    tree *p;    /* temporary pointer */
+
+    if (*l == NULL) {
+        p = malloc(sizeof(tree));
+        p->item = x;
+        p->left = p->right = NULL;
+        p->parent = parent;
+        *l = p;
+        return;
+    }
+
+    if (x < (*l)->item) {
+        insert_tree(&((*l)->left), x, *l);
+    } else {
+        insert_tree(&((*l)->right), x, *l);
+    }
+}

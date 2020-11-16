@@ -1,0 +1,9 @@
+void union_find_init(union_find *s, int n) {
+    int i;    /* counter */
+
+    for (i = 1; i <= n; i++) {
+        s->p[i] = i;
+        s->size[i] = 1;
+    }
+    s->n = n;
+}

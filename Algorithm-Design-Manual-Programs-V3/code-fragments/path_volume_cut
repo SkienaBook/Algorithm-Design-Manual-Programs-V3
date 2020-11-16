@@ -1,0 +1,15 @@
+int path_volume(flow_graph *g, int start, int end) {
+    edgenode *e;    /* edge in question */
+
+    if (parent[end] == -1) {
+        return(0);
+    }
+
+    e = find_edge(g, parent[end], end);
+
+    if (start == parent[end]) {
+        return(e->residual);
+    } else {
+        return(min(path_volume(g, start, parent[end]), e->residual));
+    }
+}

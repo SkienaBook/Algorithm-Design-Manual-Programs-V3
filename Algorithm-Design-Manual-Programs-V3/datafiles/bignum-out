@@ -1,0 +1,147 @@
+a = 23423    b = 32432
+addition -- 55855
+compare_bignum a ? b = 1
+subtraction -- - 9009
+multiplication -- 759654736
+division -- 0
+--------------------------
+a = 32432    b = 23423
+addition -- 55855
+compare_bignum a ? b = -1
+subtraction -- 9009
+multiplication -- 759654736
+division -- 1
+--------------------------
+a = 0    b = 0
+addition -- 0
+compare_bignum a ? b = 0
+subtraction -- 0
+multiplication -- 0
+division -- NaN 
+--------------------------
+a = 0    b = 1
+addition -- 1
+compare_bignum a ? b = 1
+subtraction -- - 1
+multiplication -- 0
+division -- 0
+--------------------------
+a = 1    b = 0
+addition -- 1
+compare_bignum a ? b = -1
+subtraction -- 1
+multiplication -- 0
+division -- NaN 
+--------------------------
+a = 1    b = 1
+addition -- 2
+compare_bignum a ? b = 0
+subtraction -- 0
+multiplication -- 1
+division -- 1
+--------------------------
+a = 0    b = -1
+addition -- - 1
+compare_bignum a ? b = -1
+subtraction -- 1
+multiplication -- 0
+division -- 0
+--------------------------
+a = -1    b = 0
+addition -- - 1
+compare_bignum a ? b = 1
+subtraction -- - 1
+multiplication -- 0
+division -- NaN 
+--------------------------
+a = -1    b = -1
+addition -- - 2
+compare_bignum a ? b = 0
+subtraction -- 0
+multiplication -- 1
+division -- 1
+--------------------------
+a = 9999999    b = 1
+addition -- 10000000
+compare_bignum a ? b = -1
+subtraction -- 9999998
+multiplication -- 9999999
+division -- 9999999
+--------------------------
+a = 1    b = 9999999
+addition -- 10000000
+compare_bignum a ? b = 1
+subtraction -- - 9999998
+multiplication -- 9999999
+division -- 0
+--------------------------
+a = 4378321    b = 3423832
+addition -- 7802153
+compare_bignum a ? b = -1
+subtraction -- 954489
+multiplication -- 14990635546072
+division -- 1
+--------------------------
+a = 5    b = 4
+addition -- 9
+compare_bignum a ? b = -1
+subtraction -- 1
+multiplication -- 20
+division -- 1
+--------------------------
+a = -5    b = 4
+addition -- - 1
+compare_bignum a ? b = 1
+subtraction -- - 9
+multiplication -- - 20
+division -- - 1
+--------------------------
+a = 5    b = -4
+addition -- 1
+compare_bignum a ? b = -1
+subtraction -- 9
+multiplication -- - 20
+division -- - 1
+--------------------------
+a = -5    b = -4
+addition -- - 9
+compare_bignum a ? b = 1
+subtraction -- - 1
+multiplication -- 20
+division -- 1
+--------------------------
+a = 4    b = 5
+addition -- 9
+compare_bignum a ? b = 1
+subtraction -- - 1
+multiplication -- 20
+division -- 0
+--------------------------
+a = -4    b = 5
+addition -- 1
+compare_bignum a ? b = 1
+subtraction -- - 9
+multiplication -- - 20
+division -- 0
+--------------------------
+a = 4    b = -5
+addition -- - 1
+compare_bignum a ? b = -1
+subtraction -- 9
+multiplication -- - 20
+division -- 0
+--------------------------
+a = -4    b = -5
+addition -- - 9
+compare_bignum a ? b = -1
+subtraction -- 1
+multiplication -- 20
+division -- 0
+--------------------------
+a = 314    b = 783
+addition -- 1097
+compare_bignum a ? b = 1
+subtraction -- - 469
+multiplication -- 245862
+division -- 0
+--------------------------

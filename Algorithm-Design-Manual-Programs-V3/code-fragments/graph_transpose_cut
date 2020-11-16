@@ -1,0 +1,19 @@
+graph *transpose(graph *g) {
+    graph *gt;    /* transpose of graph g */
+    int x;        /* counter */
+    edgenode *p;  /* temporary pointer */
+
+    gt = (graph *) malloc(sizeof(graph));
+    initialize_graph(gt, true);       /* initialize directed graph */
+    gt->nvertices = g->nvertices;
+
+    for (x = 1; x <= g->nvertices; x++) {
+        p = g->edges[x];
+        while (p != NULL) {
+            insert_edge(gt, p->y, x, true);
+            p = p->next;
+        }
+    }
+
+    return(gt);
+}

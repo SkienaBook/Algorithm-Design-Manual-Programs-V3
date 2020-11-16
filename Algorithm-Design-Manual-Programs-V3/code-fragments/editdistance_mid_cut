@@ -1,0 +1,3 @@
+#define MATCH      0       /* enumerated type symbol for match */
+#define INSERT     1       /* enumerated type symbol for insert */
+#define DELETE     2       /* enumerated type symbol for delete */

@@ -1,0 +1,27 @@
+int string_compare_r(char *s, char *t, int i, int j) {
+    int k;           /* counter */
+    int opt[3];      /* cost of the three options */
+    int lowest_cost; /* lowest cost */
+
+    if (i == 0) {    /* indel is the cost of an insertion or deletion */ 
+        return(j * indel(' '));
+    }
+
+    if (j == 0) {
+        return(i * indel(' '));
+    }
+                     /* match is the cost of a match/substitution */
+
+    opt[MATCH]  = string_compare_r(s,t,i-1,j-1) + match(s[i],t[j]);
+    opt[INSERT] = string_compare_r(s,t,i,j-1) + indel(t[j]);
+    opt[DELETE] = string_compare_r(s,t,i-1,j) + indel(s[i]);
+
+    lowest_cost = opt[MATCH];
+    for (k = INSERT; k <= DELETE; k++) {
+        if (opt[k] < lowest_cost) {
+            lowest_cost = opt[k];
+        }
+    }
+
+    return(lowest_cost);
+}

@@ -1,0 +1,8 @@
+    for (i = 1; i <= a->rows; i++) {
+        for (j = 1; j <= b->columns; j++) {
+            c->m[i][j] = 0;
+            for (k = 1; k <= b->rows; k++) {
+                c->m[i][j] += a->m[i][k] * b->m[k][j];
+            }
+        }
+    }

@@ -1,0 +1,27 @@
+void branch_and_bound (tsp_solution *s, tsp_instance *t) {
+    int c[MAXCANDIDATES];      /* candidates for next position */
+    int nc;                    /* next position candidate count */
+    int i;                     /* counter */
+
+    first_solution(&best_solution,t);
+    best_cost = solution_cost(&best_solution, t);
+    initialize_solution(s,t);
+    extend_solution(s,t,1);
+    pq_init(&q);
+    pq_insert(&q,s);
+
+    while (top_pq(&q).cost < best_cost) {
+         *s = extract_min(&q);
+         if (is_a_solution(s, s->n, t)) {
+              process_solution(s, s->n, t);
+         }
+         else {
+              construct_candidates(s, (s->n)+1, t, c, &nc);
+              for (i=0; i<nc; i++) {
+                    extend_solution(s,t,c[i]);
+                    pq_insert(&q,s);
+                    contract_solution(s,t);
+              }
+         }
+    }
+}

@@ -1,0 +1,14 @@
+void delete_list(list **l, list **x) {
+    list *p;            /* item pointer */
+    list *pred;         /* predecessor pointer */
+
+    p = *l;
+    pred = item_ahead(*l, *x);
+
+    if (pred == NULL) { /* splice out of list */
+        *l = p->next;
+    } else {
+        pred->next = (*x)->next;
+    }
+    free(*x);           /* free memory used by node */
+}

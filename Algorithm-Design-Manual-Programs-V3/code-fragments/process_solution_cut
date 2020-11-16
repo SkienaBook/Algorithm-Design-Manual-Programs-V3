@@ -1,0 +1,12 @@
+void process_solution(int a[], int k, int input) {
+    int i;    /* counter */
+    
+    printf("{");
+    for (i = 1; i <= k; i++) {
+        if (a[i] == true) {
+            printf(" %d", i);
+        }
+    }
+
+    printf(" }\n");
+}

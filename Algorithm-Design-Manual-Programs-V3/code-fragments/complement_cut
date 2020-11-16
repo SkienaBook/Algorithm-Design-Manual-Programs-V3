@@ -1,0 +1,11 @@
+int complement(int color) {
+    if (color == WHITE) {
+        return(BLACK);
+    }
+
+    if (color == BLACK) {
+        return(WHITE);
+    }
+	
+    return(UNCOLORED);
+}

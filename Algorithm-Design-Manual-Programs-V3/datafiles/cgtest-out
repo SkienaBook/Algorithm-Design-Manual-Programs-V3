@@ -1,0 +1,96 @@
+segment:   1.000   5.000
+  3.000   5.000
+segment:   5.000   5.000
+  5.000   0.000
+segments_intersect test
+0
+intersection point
+  5.000   5.000
+--------------------------------
+segment:   1.000   5.000
+  3.000   5.000
+segment:   3.000   5.000
+  3.000   0.000
+segments_intersect test
+1
+intersection point
+  3.000   5.000
+--------------------------------
+segment:   2.300   5.300
+  5.700   6.800
+segment:  12.100   3.400
+  9.800   5.300
+segments_intersect test
+0
+intersection point
+  7.189   7.457
+--------------------------------
+segment:   1.000   5.000
+  3.000   5.000
+segment:   2.000   4.000
+-17.000   4.000
+segments_intersect test
+0
+intersection point
+Error: Distinct parallel lines do not intersect.
+  7.189   7.457
+--------------------------------
+segment:   0.000   0.000
+  1.000   1.000
+segment:   5.000   0.000
+ 10.000   5.000
+segments_intersect test
+0
+intersection point
+Error: Distinct parallel lines do not intersect.
+  7.189   7.457
+--------------------------------
+segment:   0.000   0.000
+ 14.300  -4.300
+segment:   0.000   0.000
+ 14.300  -4.300
+segments_intersect test
+1
+intersection point
+Warning: Identical lines, all points intersect.
+  0.000   0.000
+--------------------------------
+segment:   2.000   2.000
+  4.000   4.000
+segment:   2.000   4.000
+  4.000   2.000
+segments_intersect test
+1
+intersection point
+  3.000   3.000
+--------------------------------
+segment:   0.000   0.000
+  5.000   5.000
+segment:   2.000   2.000
+  3.000   3.000
+segments_intersect test
+1
+intersection point
+Warning: Identical lines, all points intersect.
+  0.000   0.000
+--------------------------------
+segment:   0.000   0.000
+  5.000   5.000
+segment:   2.000   2.000
+  6.000   6.000
+segments_intersect test
+1
+intersection point
+Warning: Identical lines, all points intersect.
+  0.000   0.000
+--------------------------------
+segment:   0.000   0.000
+  2.000   2.000
+segment:   5.000   5.000
+  6.000   6.000
+segments_intersect test
+0
+intersection point
+Warning: Identical lines, all points intersect.
+  0.000   0.000
+--------------------------------

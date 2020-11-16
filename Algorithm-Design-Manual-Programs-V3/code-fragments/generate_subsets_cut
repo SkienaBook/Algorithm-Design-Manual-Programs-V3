@@ -1,0 +1,5 @@
+void generate_subsets(int n) {
+    int a[NMAX];                    /* solution vector */
+
+    backtrack(a, 0, n);
+}

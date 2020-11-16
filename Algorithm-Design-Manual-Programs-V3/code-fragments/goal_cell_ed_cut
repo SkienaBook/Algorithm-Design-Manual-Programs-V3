@@ -1,0 +1,4 @@
+void goal_cell(char *s, char *t, int *i, int *j) {
+    *i = strlen(s) - 1;
+    *j = strlen(t) - 1;
+}

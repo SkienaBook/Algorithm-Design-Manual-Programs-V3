@@ -1,0 +1,10 @@
+void extend_solution(tsp_solution *s, tsp_instance *t, int v) {
+    s->n++;
+    s->p[s->n] = v;
+    s->cost = partial_solution_lb(s,t);
+}
+
+void contract_solution(tsp_solution *s, tsp_instance *t) {
+    s->n--;
+    s->cost = partial_solution_lb(s,t);
+}

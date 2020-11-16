@@ -1,0 +1,44 @@
+void anneal(tsp_instance *t, tsp_solution *s) {
+    int x, y;                       /* pair of items to swap */
+    int i, j;                       /* counters */
+    bool accept_win, accept_loss;   /* conditions to accept transition */
+    double temperature;             /* the current system temp */
+    double current_value;           /* value of current state */
+    double start_value;             /* value at start of loop */
+    double delta;                   /* value after swap */
+    double exponent;                /* exponent for energy funct */
+
+    temperature = INITIAL_TEMPERATURE;
+
+    initialize_solution(t->n, s);
+    current_value = solution_cost(s, t);
+
+    for (i = 1; i <= COOLING_STEPS; i++) {
+        temperature *= COOLING_FRACTION;
+
+        start_value = current_value;		
+
+        for (j = 1; j <= STEPS_PER_TEMP; j++) {
+            /* pick indices of elements to swap */
+            x = random_int(1, t->n);
+            y = random_int(1, t->n);
+
+            delta = transition(s, t, x, y);
+            accept_win = (delta < 0);       /* did swap reduce cost? */
+
+            exponent = (-delta / current_value) / (K * temperature);
+            accept_loss = (exp(exponent) > random_float(0,1));
+
+            if (accept_win || accept_loss) {
+                current_value += delta;
+            } else {
+                transition(s, t, x, y);     /* reverse transition */
+            }
+            solution_count_update(s, t);
+        }
+
+        if (current_value < start_value) {  /* rerun at this temp */
+            temperature /= COOLING_FRACTION;
+        }
+    }
+}

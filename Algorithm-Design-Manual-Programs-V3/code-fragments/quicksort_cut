@@ -1,0 +1,9 @@
+void quicksort(item_type s[], int l, int h) {
+    int p;    /* index of partition */
+
+    if (l < h) {
+        p = partition(s, l, h);
+        quicksort(s, l, p - 1);
+        quicksort(s, p + 1, h);
+    }
+}

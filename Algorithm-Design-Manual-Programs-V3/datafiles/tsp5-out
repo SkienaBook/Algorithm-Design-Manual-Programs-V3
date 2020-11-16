@@ -1,0 +1,25 @@
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+ evaluations = 17 backtracking lb_flag=0 
+ constructions = 40 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 13199.2
+ evaluations = 7  branch-and-bound lb_flag=0 
+ constructions = 31  maxqueuesize = 0 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 13199.2
+ evaluations = 17 backtracking lb_flag=1 
+ constructions = 40 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 13199.2
+ evaluations = 7  branch-and-bound lb_flag=1 
+ constructions = 31  maxqueuesize = 0 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 13199.2

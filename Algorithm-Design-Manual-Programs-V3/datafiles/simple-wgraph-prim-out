@@ -1,0 +1,4 @@
+edge (1,4) in tree 
+edge (4,2) in tree 
+edge (2,3) in tree 
+Out of Prim: weight = 6 

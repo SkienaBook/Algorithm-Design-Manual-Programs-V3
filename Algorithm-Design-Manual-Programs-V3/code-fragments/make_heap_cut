@@ -1,0 +1,8 @@
+void make_heap(priority_queue *q, item_type s[], int n) {
+    int i;        /* counter */
+
+    pq_init(q);
+    for (i = 0; i < n; i++) {
+        pq_insert(q, s[i]);
+    }
+}

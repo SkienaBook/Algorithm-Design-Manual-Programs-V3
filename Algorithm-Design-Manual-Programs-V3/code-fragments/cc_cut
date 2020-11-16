@@ -1,0 +1,16 @@
+void connected_components(graph *g) {
+    int c;              /* component number */
+    int i;              /* counter */
+
+    initialize_search(g);
+
+    c = 0;
+    for (i = 1; i <= g->nvertices; i++) {
+        if (!discovered[i]) {
+            c = c + 1;
+            printf("Component %d:", c);
+            bfs(g, i);
+            printf("\n");
+        }
+    }
+}

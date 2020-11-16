@@ -1,0 +1,5 @@
+typedef struct {
+    int p[SET_SIZE+1];      /* parent element */
+    int size[SET_SIZE+1];   /* number of elements in subtree i */
+    int n;                  /* number of elements in set */
+} union_find;

@@ -1,0 +1,5 @@
+bool is_a_solution(int a[], int k, boardtype *board) {
+    steps = steps + 1;          /* count steps for results table */
+
+    return (board->freecount == 0);
+}

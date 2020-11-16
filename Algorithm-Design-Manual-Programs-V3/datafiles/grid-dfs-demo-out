@@ -1,0 +1,141 @@
+1:  6 2
+2:  7 3 1
+3:  8 4 2
+4:  9 5 3
+5:  10 4
+6:  11 1 7
+7:  12 2 8 6
+8:  13 3 9 7
+9:  14 4 10 8
+10:  15 5 9
+11:  16 6 12
+12:  17 7 13 11
+13:  18 8 14 12
+14:  19 9 15 13
+15:  20 10 14
+16:  21 11 17
+17:  22 12 18 16
+18:  23 13 19 17
+19:  24 14 20 18
+20:  25 15 19
+21:  16 22
+22:  17 23 21
+23:  18 24 22
+24:  19 25 23
+25:  20 24
+entered vertex 1 at time 2
+tree edge (1,6)
+entered vertex 6 at time 4
+tree edge (6,11)
+entered vertex 11 at time 6
+tree edge (11,16)
+entered vertex 16 at time 8
+tree edge (16,21)
+entered vertex 21 at time 10
+tree edge (21,22)
+entered vertex 22 at time 12
+tree edge (22,17)
+entered vertex 17 at time 14
+tree edge (17,12)
+entered vertex 12 at time 16
+tree edge (12,7)
+entered vertex 7 at time 18
+tree edge (7,2)
+entered vertex 2 at time 20
+tree edge (2,3)
+entered vertex 3 at time 22
+tree edge (3,8)
+entered vertex 8 at time 24
+tree edge (8,13)
+entered vertex 13 at time 26
+tree edge (13,18)
+entered vertex 18 at time 28
+tree edge (18,23)
+entered vertex 23 at time 30
+tree edge (23,24)
+entered vertex 24 at time 32
+tree edge (24,19)
+entered vertex 19 at time 34
+tree edge (19,14)
+entered vertex 14 at time 36
+tree edge (14,9)
+entered vertex 9 at time 38
+tree edge (9,4)
+entered vertex 4 at time 40
+tree edge (4,5)
+entered vertex 5 at time 42
+tree edge (5,10)
+entered vertex 10 at time 44
+tree edge (10,15)
+entered vertex 15 at time 46
+tree edge (15,20)
+entered vertex 20 at time 48
+tree edge (20,25)
+entered vertex 25 at time 50
+back edge (25,24)
+exit vertex 25 at time 51
+back edge (20,19)
+exit vertex 20 at time 53
+back edge (15,14)
+exit vertex 15 at time 55
+back edge (10,9)
+exit vertex 10 at time 57
+exit vertex 5 at time 59
+back edge (4,3)
+exit vertex 4 at time 61
+back edge (9,8)
+exit vertex 9 at time 63
+back edge (14,13)
+exit vertex 14 at time 65
+back edge (19,18)
+exit vertex 19 at time 67
+exit vertex 24 at time 69
+back edge (23,22)
+exit vertex 23 at time 71
+back edge (18,17)
+exit vertex 18 at time 73
+back edge (13,12)
+exit vertex 13 at time 75
+back edge (8,7)
+exit vertex 8 at time 77
+exit vertex 3 at time 79
+back edge (2,1)
+exit vertex 2 at time 81
+back edge (7,6)
+exit vertex 7 at time 83
+back edge (12,11)
+exit vertex 12 at time 85
+back edge (17,16)
+exit vertex 17 at time 87
+exit vertex 22 at time 89
+exit vertex 21 at time 91
+exit vertex 16 at time 93
+exit vertex 11 at time 95
+exit vertex 6 at time 97
+exit vertex 1 at time 99
+
+1
+1 6 11 16 21 22 17 12 7 2
+1 6 11 16 21 22 17 12 7 2 3
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4 5
+1 6
+1 6 11 16 21 22 17 12 7
+1 6 11 16 21 22 17 12 7 2 3 8
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4 5 10
+1 6 11
+1 6 11 16 21 22 17 12
+1 6 11 16 21 22 17 12 7 2 3 8 13
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4 5 10 15
+1 6 11 16
+1 6 11 16 21 22 17
+1 6 11 16 21 22 17 12 7 2 3 8 13 18
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4 5 10 15 20
+1 6 11 16 21
+1 6 11 16 21 22
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24
+1 6 11 16 21 22 17 12 7 2 3 8 13 18 23 24 19 14 9 4 5 10 15 20 25

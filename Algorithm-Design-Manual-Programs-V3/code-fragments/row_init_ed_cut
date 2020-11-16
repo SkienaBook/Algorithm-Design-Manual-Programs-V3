@@ -1,0 +1,8 @@
+void row_init(int i, cell m[MAXLEN+1][MAXLEN+1]) {
+    m[0][i].cost = i;
+    if (i > 0) {
+        m[0][i].parent =  INSERT;
+    } else {
+        m[0][i].parent = -1;
+    }
+}

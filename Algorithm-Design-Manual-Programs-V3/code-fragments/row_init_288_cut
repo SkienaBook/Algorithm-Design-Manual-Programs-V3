@@ -1,0 +1,4 @@
+void row_init(int i, cell m[MAXLEN+1][MAXLEN+1]) {
+    m[0][i].cost = 0;       /* NOTE CHANGE */
+    m[0][i].parent = -1;    /* NOTE CHANGE */
+}

@@ -1,0 +1,16 @@
+void compute_indegrees(graph *g, int in[]) {
+    int i;          /* counter */
+    edgenode *p;    /* temporary pointer */
+
+    for (i = 1; i <= g->nvertices; i++) {
+        in[i] = 0;
+    }
+
+    for (i = 1; i <= g->nvertices; i++) {
+        p = g->edges[i];
+        while (p != NULL) {
+            in[p->y]++;
+            p = p->next;
+        }
+    }
+}

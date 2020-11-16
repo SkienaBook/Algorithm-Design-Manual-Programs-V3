@@ -1,0 +1,16 @@
+void augment_path(flow_graph *g, int start, int end, int volume) {
+    edgenode *e;    /* edge in question */
+
+    if (start == end) {
+        return;
+    }
+
+    e = find_edge(g, parent[end], end);
+    e->flow += volume;
+    e->residual -= volume;
+    
+    e = find_edge(g, end, parent[end]);
+    e->residual += volume;
+
+    augment_path(g, start, parent[end], volume);
+}

@@ -1,0 +1,9 @@
+void pq_insert(priority_queue *q, tsp_solution *x) {
+    if (q->n >= PQ_SIZE) {
+        printf("Warning: priority queue overflow insert x=%7.1f\n", x->cost);
+    } else {
+        q->n = (q->n) + 1;
+        q->q[q->n] = *x;
+        bubble_up(q, q->n);
+    }
+}

@@ -1,0 +1,33 @@
+void construct_candidates(tsp_solution *s, int k, tsp_instance *t, int c[], int *ncandidates) {
+    int i;                 /* counter */
+    bool in_perm[NMAX];    /* what is now in the permutation? */
+
+    constructions ++;
+
+    if (partial_solution_lb(s,t) > best_cost) {
+	*ncandidates = 0;
+	return;
+    }
+
+    if (k == 1) {
+	c[0] = 1;
+	*ncandidates = 1;
+	return;
+    }
+
+    for (i = 1; i < NMAX; i++) {
+        in_perm[i] = false;
+    }
+
+    for (i = 1; i < k; i++) {
+        in_perm[s->p[i]] = true;
+    }
+
+    *ncandidates = 0;
+    for (i = 1; i <= t->n; i++) { 
+        if (!in_perm[i]) {
+            c[ *ncandidates] = i;
+            *ncandidates = *ncandidates + 1;
+        }
+    }
+}

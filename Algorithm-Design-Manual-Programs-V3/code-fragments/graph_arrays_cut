@@ -1,0 +1,3 @@
+bool processed[MAXV+1];     /* which vertices have been processed */
+bool discovered[MAXV+1];    /* which vertices have been found */
+int parent[MAXV+1];         /* discovery relation */

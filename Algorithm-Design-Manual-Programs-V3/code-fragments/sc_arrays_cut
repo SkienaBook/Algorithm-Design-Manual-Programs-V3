@@ -1,0 +1,2 @@
+int low[MAXV+1];    /* oldest vertex surely in component of v */
+int scc[MAXV+1];    /* strong component number for each vertex */

@@ -1,0 +1,8 @@
+void reconstruct_partition(int s[],int d[MAXN+1][MAXK+1], int n, int k) {
+    if (k == 1) {
+        print_books(s, 1, n);
+    } else {
+        reconstruct_partition(s, d, d[n][k], k-1);
+        print_books(s, d[n][k]+1, n);
+    }
+}

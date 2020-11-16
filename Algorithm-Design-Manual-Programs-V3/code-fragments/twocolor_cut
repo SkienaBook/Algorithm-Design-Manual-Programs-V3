@@ -1,0 +1,18 @@
+void twocolor(graph *g) {
+    int i;    /* counter */
+
+    for (i = 1; i <= (g->nvertices); i++) { 
+        color[i] = UNCOLORED;
+    }
+
+    bipartite = true;
+ 
+    initialize_search(g);
+
+    for (i = 1; i <= (g->nvertices); i++) {
+        if (!discovered[i]) {
+            color[i] = WHITE;
+            bfs(g, i);
+        }
+    }
+}

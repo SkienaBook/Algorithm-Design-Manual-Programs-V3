@@ -1,0 +1,117 @@
+1:  6 2
+2:  7 3 1
+3:  8 4 2
+4:  9 5 3
+5:  10 4
+6:  11 1 7
+7:  12 2 8 6
+8:  13 3 9 7
+9:  14 4 10 8
+10:  15 5 9
+11:  16 6 12
+12:  17 7 13 11
+13:  18 8 14 12
+14:  19 9 15 13
+15:  20 10 14
+16:  21 11 17
+17:  22 12 18 16
+18:  23 13 19 17
+19:  24 14 20 18
+20:  25 15 19
+21:  16 22
+22:  17 23 21
+23:  18 24 22
+24:  19 25 23
+25:  20 24
+processed vertex 1
+processed edge (1,6)
+processed edge (1,2)
+processed vertex 6
+processed edge (6,11)
+processed edge (6,7)
+processed vertex 2
+processed edge (2,7)
+processed edge (2,3)
+processed vertex 11
+processed edge (11,16)
+processed edge (11,12)
+processed vertex 7
+processed edge (7,12)
+processed edge (7,8)
+processed vertex 3
+processed edge (3,8)
+processed edge (3,4)
+processed vertex 16
+processed edge (16,21)
+processed edge (16,17)
+processed vertex 12
+processed edge (12,17)
+processed edge (12,13)
+processed vertex 8
+processed edge (8,13)
+processed edge (8,9)
+processed vertex 4
+processed edge (4,9)
+processed edge (4,5)
+processed vertex 21
+processed edge (21,22)
+processed vertex 17
+processed edge (17,22)
+processed edge (17,18)
+processed vertex 13
+processed edge (13,18)
+processed edge (13,14)
+processed vertex 9
+processed edge (9,14)
+processed edge (9,10)
+processed vertex 5
+processed edge (5,10)
+processed vertex 22
+processed edge (22,23)
+processed vertex 18
+processed edge (18,23)
+processed edge (18,19)
+processed vertex 14
+processed edge (14,19)
+processed edge (14,15)
+processed vertex 10
+processed edge (10,15)
+processed vertex 23
+processed edge (23,24)
+processed vertex 19
+processed edge (19,24)
+processed edge (19,20)
+processed vertex 15
+processed edge (15,20)
+processed vertex 24
+processed edge (24,25)
+processed vertex 20
+processed edge (20,25)
+processed vertex 25
+ -1 1 2 3 4 1 6 7 8 9 6 11 12 13 14 11 16 17 18 19 16 21 22 23 24
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 6
+1 6 7
+1 6 7 8
+1 6 7 8 9
+1 6 7 8 9 10
+1 6 11
+1 6 11 12
+1 6 11 12 13
+1 6 11 12 13 14
+1 6 11 12 13 14 15
+1 6 11 16
+1 6 11 16 17
+1 6 11 16 17 18
+1 6 11 16 17 18 19
+1 6 11 16 17 18 19 20
+1 6 11 16 21
+1 6 11 16 21 22
+1 6 11 16 21 22 23
+1 6 11 16 21 22 23 24
+1 6 11 16 21 22 23 24 25

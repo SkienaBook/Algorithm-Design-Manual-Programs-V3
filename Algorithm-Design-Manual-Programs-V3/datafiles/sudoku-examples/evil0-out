@@ -1,0 +1,8695 @@
+
+3  |6  |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+(0,0) 0 open = 
+(0,1) 4 open =  1 2 4 9
+(0,2) 2 open =  2 9
+(0,3) 0 open = 
+(0,4) 2 open =  1 8
+(0,5) 4 open =  1 2 4 8
+(0,6) 5 open =  1 2 5 8 9
+(0,7) 4 open =  1 2 5 8
+(0,8) 4 open =  1 5 7 9
+(1,0) 0 open = 
+(1,1) 4 open =  1 2 4 9
+(1,2) 3 open =  2 6 9
+(1,3) 4 open =  1 2 4 8
+(1,4) 3 open =  1 3 8
+(1,5) 0 open = 
+(1,6) 6 open =  1 2 3 6 8 9
+(1,7) 4 open =  1 2 6 8
+(1,8) 4 open =  1 3 6 9
+(2,0) 0 open = 
+(2,1) 0 open = 
+(2,2) 2 open =  2 6
+(2,3) 3 open =  1 2 5
+(2,4) 0 open = 
+(2,5) 3 open =  1 2 3
+(2,6) 0 open = 
+(2,7) 4 open =  1 2 5 6
+(2,8) 4 open =  1 3 5 6
+(3,0) 4 open =  1 2 7 9
+(3,1) 0 open = 
+(3,2) 4 open =  2 3 7 9
+(3,3) 4 open =  1 4 7 9
+(3,4) 0 open = 
+(3,5) 5 open =  1 3 4 6 9
+(3,6) 3 open =  1 2 6
+(3,7) 4 open =  1 2 4 6
+(3,8) 2 open =  1 6
+(4,0) 2 open =  1 2
+(4,1) 0 open = 
+(4,2) 0 open = 
+(4,3) 2 open =  1 8
+(4,4) 3 open =  1 3 8
+(4,5) 3 open =  1 3 8
+(4,6) 0 open = 
+(4,7) 0 open = 
+(4,8) 2 open =  1 5
+(5,0) 3 open =  1 7 9
+(5,1) 3 open =  1 5 9
+(5,2) 3 open =  5 7 9
+(5,3) 5 open =  1 4 7 8 9
+(5,4) 0 open = 
+(5,5) 5 open =  1 4 6 8 9
+(5,6) 4 open =  1 5 6 8
+(5,7) 0 open = 
+(5,8) 3 open =  1 5 6
+(6,0) 3 open =  2 6 9
+(6,1) 4 open =  2 3 5 9
+(6,2) 0 open = 
+(6,3) 2 open =  2 9
+(6,4) 0 open = 
+(6,5) 3 open =  2 6 9
+(6,6) 4 open =  3 5 6 9
+(6,7) 0 open = 
+(6,8) 0 open = 
+(7,0) 4 open =  4 6 7 9
+(7,1) 3 open =  4 5 9
+(7,2) 5 open =  5 6 7 8 9
+(7,3) 0 open = 
+(7,4) 4 open =  1 6 7 8
+(7,5) 4 open =  1 6 8 9
+(7,6) 4 open =  1 5 6 9
+(7,7) 3 open =  1 5 6
+(7,8) 0 open = 
+(8,0) 4 open =  2 6 7 9
+(8,1) 3 open =  2 3 9
+(8,2) 6 open =  2 3 6 7 8 9
+(8,3) 5 open =  1 2 7 8 9
+(8,4) 4 open =  1 6 7 8
+(8,5) 0 open = 
+(8,6) 4 open =  1 3 6 9
+(8,7) 2 open =  1 6
+(8,8) 0 open = 
+next square = (0,2) 
+construct_candidates k=1
+next square candidates (0,2) slot 1
+change board[0][2] to 2
+
+3 2|6  |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=2
+next square candidates (2,2) slot 2
+change board[2][2] to 6
+
+3 2|6  |   |
+5  |  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=3
+next square candidates (1,2) slot 3
+change board[1][2] to 9
+
+3 2|6  |   |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=4
+next square candidates (0,1) slot 4
+change board[0][1] to 1
+
+312|6  |   |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (0,4) slot 5
+change board[0][4] to 8
+
+312|68 |   |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (0,5) slot 6
+change board[0][5] to 4
+
+312|684|   |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (0,7) slot 7
+change board[0][7] to 5
+
+312|684| 5 |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (0,6) slot 8
+change board[0][6] to 9
+
+312|684|95 |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (0,8) slot 9
+change board[0][8] to 7
+
+312|684|957|
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (1,1) slot 10
+change board[1][1] to 4
+
+312|684|957|
+549|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,3) slot 11
+change board[1][3] to 1
+
+312|684|957|
+549|1 7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (1,4) slot 12
+change board[1][4] to 3
+
+312|684|957|
+549|137|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,8) slot 13
+change board[1][8] to 6
+
+312|684|957|
+549|137|  6|
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,5) slot 14
+change board[2][5] to 2
+
+312|684|957|
+549|137|  6|
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+312|684|957|
+549|137|  6|
+876|592|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 1
+
+312|684|957|
+549|137|  6|
+876|592|41 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (3,8) slot 18
+change board[3][8] to 1
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,3) slot 19
+change board[4][3] to 8
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|8  |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,4) slot 20
+change board[4][4] to 1
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,0) slot 21
+change board[4][0] to 2
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,5) slot 22
+change board[4][5] to 3
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (4,8) slot 23
+change board[4][8] to 5
+
+312|684|957|
+549|137|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (-1,-1) slot 24
+clear board[4][8] to make freecount=35
+clear board[4][5] to make freecount=36
+clear board[4][0] to make freecount=37
+clear board[4][4] to make freecount=38
+clear board[4][3] to make freecount=39
+clear board[3][8] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[2][5] to make freecount=44
+clear board[1][8] to make freecount=45
+clear board[1][4] to make freecount=46
+clear board[1][3] to make freecount=47
+change board[1][3] to 2
+
+312|684|957|
+549|2 7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (6,3) slot 12
+change board[6][3] to 9
+
+312|684|957|
+549|2 7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,4) slot 13
+change board[1][4] to 1
+
+312|684|957|
+549|217|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,3) slot 14
+change board[2][3] to 5
+
+312|684|957|
+549|217|   |
+876|59 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,5) slot 15
+change board[2][5] to 3
+
+312|684|957|
+549|217|   |
+876|593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,8) slot 16
+change board[2][8] to 1
+
+312|684|957|
+549|217|   |
+876|593|4 1|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,7) slot 17
+change board[2][7] to 2
+
+312|684|957|
+549|217|   |
+876|593|421|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (3,8) slot 18
+change board[3][8] to 6
+
+312|684|957|
+549|217|   |
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (1,8) slot 19
+change board[1][8] to 3
+
+312|684|957|
+549|217|  3|
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,4) slot 20
+change board[4][4] to 3
+
+312|684|957|
+549|217|  3|
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,8) slot 21
+change board[4][8] to 5
+
+312|684|957|
+549|217|  3|
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (-1,-1) slot 22
+clear board[4][8] to make freecount=37
+clear board[4][4] to make freecount=38
+clear board[1][8] to make freecount=39
+clear board[3][8] to make freecount=40
+clear board[2][7] to make freecount=41
+clear board[2][8] to make freecount=42
+clear board[2][5] to make freecount=43
+clear board[2][3] to make freecount=44
+clear board[1][4] to make freecount=45
+change board[1][4] to 3
+
+312|684|957|
+549|237|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,5) slot 14
+change board[2][5] to 1
+
+312|684|957|
+549|237|   |
+876| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+312|684|957|
+549|237|   |
+876|591|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 2
+
+312|684|957|
+549|237|   |
+876|591|42 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,4) slot 18
+change board[4][4] to 1
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,0) slot 19
+change board[4][0] to 2
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,3) slot 20
+change board[4][3] to 8
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,5) slot 21
+change board[4][5] to 3
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (6,0) slot 23
+change board[6][0] to 6
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (6,5) slot 24
+change board[6][5] to 2
+
+312|684|957|
+549|237|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (1,8) slot 25
+change board[1][8] to 1
+
+312|684|957|
+549|237|  1|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (3,8) slot 26
+change board[3][8] to 6
+
+312|684|957|
+549|237|  1|
+876|591|423|
+-----------
+ 8 | 5 |  6|
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=27
+next square candidates (-1,-1) slot 27
+clear board[3][8] to make freecount=32
+clear board[1][8] to make freecount=33
+change board[1][8] to 6
+
+312|684|957|
+549|237|  6|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (3,8) slot 26
+change board[3][8] to 1
+
+312|684|957|
+549|237|  6|
+876|591|423|
+-----------
+ 8 | 5 |  1|
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=27
+next square candidates (-1,-1) slot 27
+clear board[3][8] to make freecount=32
+clear board[1][8] to make freecount=33
+clear board[6][5] to make freecount=34
+clear board[6][0] to make freecount=35
+clear board[4][8] to make freecount=36
+clear board[4][5] to make freecount=37
+clear board[4][3] to make freecount=38
+clear board[4][0] to make freecount=39
+clear board[4][4] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[2][5] to make freecount=44
+clear board[1][4] to make freecount=45
+clear board[6][3] to make freecount=46
+clear board[1][3] to make freecount=47
+clear board[1][1] to make freecount=48
+clear board[0][8] to make freecount=49
+clear board[0][6] to make freecount=50
+clear board[0][7] to make freecount=51
+clear board[0][5] to make freecount=52
+clear board[0][4] to make freecount=53
+clear board[0][1] to make freecount=54
+change board[0][1] to 4
+
+342|6  |   |
+5 9|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (1,1) slot 5
+change board[1][1] to 1
+
+342|6  |   |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (0,4) slot 6
+change board[0][4] to 1
+
+342|61 |   |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (0,5) slot 7
+change board[0][5] to 8
+
+342|618|   |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (0,7) slot 8
+change board[0][7] to 5
+
+342|618| 5 |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (0,6) slot 9
+change board[0][6] to 9
+
+342|618|95 |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,8) slot 10
+change board[0][8] to 7
+
+342|618|957|
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,4) slot 11
+change board[1][4] to 3
+
+342|618|957|
+519| 37|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (1,8) slot 12
+change board[1][8] to 6
+
+342|618|957|
+519| 37|  6|
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (2,5) slot 13
+change board[2][5] to 2
+
+342|618|957|
+519| 37|  6|
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,3) slot 14
+change board[1][3] to 4
+
+342|618|957|
+519|437|  6|
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+342|618|957|
+519|437|  6|
+876|592|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 1
+
+342|618|957|
+519|437|  6|
+876|592|41 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (3,8) slot 18
+change board[3][8] to 1
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,4) slot 19
+change board[4][4] to 8
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64| 8 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,3) slot 20
+change board[4][3] to 1
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|18 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,0) slot 21
+change board[4][0] to 2
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|18 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,5) slot 22
+change board[4][5] to 3
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|183|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (4,8) slot 23
+change board[4][8] to 5
+
+342|618|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (-1,-1) slot 24
+clear board[4][8] to make freecount=35
+clear board[4][5] to make freecount=36
+clear board[4][0] to make freecount=37
+clear board[4][3] to make freecount=38
+clear board[4][4] to make freecount=39
+clear board[3][8] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[1][3] to make freecount=44
+clear board[2][5] to make freecount=45
+clear board[1][8] to make freecount=46
+clear board[1][4] to make freecount=47
+clear board[0][8] to make freecount=48
+clear board[0][6] to make freecount=49
+clear board[0][7] to make freecount=50
+clear board[0][5] to make freecount=51
+clear board[0][4] to make freecount=52
+change board[0][4] to 8
+
+342|68 |   |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (0,5) slot 7
+change board[0][5] to 1
+
+342|681|   |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (0,7) slot 8
+change board[0][7] to 5
+
+342|681| 5 |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (0,6) slot 9
+change board[0][6] to 9
+
+342|681|95 |
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,8) slot 10
+change board[0][8] to 7
+
+342|681|957|
+519|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,4) slot 11
+change board[1][4] to 3
+
+342|681|957|
+519| 37|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (1,8) slot 12
+change board[1][8] to 6
+
+342|681|957|
+519| 37|  6|
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (2,5) slot 13
+change board[2][5] to 2
+
+342|681|957|
+519| 37|  6|
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,3) slot 14
+change board[1][3] to 4
+
+342|681|957|
+519|437|  6|
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+342|681|957|
+519|437|  6|
+876|592|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 1
+
+342|681|957|
+519|437|  6|
+876|592|41 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (3,8) slot 18
+change board[3][8] to 1
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,4) slot 19
+change board[4][4] to 1
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,0) slot 20
+change board[4][0] to 2
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,3) slot 21
+change board[4][3] to 8
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,5) slot 22
+change board[4][5] to 3
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (4,8) slot 23
+change board[4][8] to 5
+
+342|681|957|
+519|437|  6|
+876|592|413|
+-----------
+ 8 | 5 |  1|
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (-1,-1) slot 24
+clear board[4][8] to make freecount=35
+clear board[4][5] to make freecount=36
+clear board[4][3] to make freecount=37
+clear board[4][0] to make freecount=38
+clear board[4][4] to make freecount=39
+clear board[3][8] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[1][3] to make freecount=44
+clear board[2][5] to make freecount=45
+clear board[1][8] to make freecount=46
+clear board[1][4] to make freecount=47
+clear board[0][8] to make freecount=48
+clear board[0][6] to make freecount=49
+clear board[0][7] to make freecount=50
+clear board[0][5] to make freecount=51
+clear board[0][4] to make freecount=52
+clear board[1][1] to make freecount=53
+clear board[0][1] to make freecount=54
+clear board[1][2] to make freecount=55
+clear board[2][2] to make freecount=56
+clear board[0][2] to make freecount=57
+change board[0][2] to 9
+
+3 9|6  |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=2
+next square candidates (0,4) slot 2
+change board[0][4] to 1
+
+3 9|61 |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=3
+next square candidates (0,1) slot 3
+change board[0][1] to 2
+
+329|61 |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=4
+next square candidates (1,2) slot 4
+change board[1][2] to 6
+
+329|61 |   |
+5 6|  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (-1,-1) slot 5
+clear board[1][2] to make freecount=54
+clear board[0][1] to make freecount=55
+change board[0][1] to 4
+
+349|61 |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=4
+next square candidates (0,5) slot 4
+change board[0][5] to 2
+
+349|612|   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (2,3) slot 5
+change board[2][3] to 5
+
+349|612|   |
+5  |  7|   |
+87 |59 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (2,5) slot 6
+change board[2][5] to 3
+
+349|612|   |
+5  |  7|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (1,4) slot 7
+change board[1][4] to 8
+
+349|612|   |
+5  | 87|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (1,3) slot 8
+change board[1][3] to 4
+
+349|612|   |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (4,4) slot 9
+change board[4][4] to 3
+
+349|612|   |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,6) slot 10
+change board[0][6] to 5
+
+349|612|5  |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (0,7) slot 11
+change board[0][7] to 8
+
+349|612|58 |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (0,8) slot 12
+change board[0][8] to 7
+
+349|612|587|
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,1) slot 13
+change board[1][1] to 1
+
+349|612|587|
+51 |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,2) slot 14
+change board[1][2] to 2
+
+349|612|587|
+512|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (1,7) slot 15
+change board[1][7] to 6
+
+349|612|587|
+512|487| 6 |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,2) slot 16
+change board[2][2] to 6
+
+349|612|587|
+512|487| 6 |
+876|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 1
+
+349|612|587|
+512|487| 6 |
+876|593|4 1|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (2,7) slot 18
+change board[2][7] to 2
+
+349|612|587|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (3,8) slot 19
+change board[3][8] to 6
+
+349|612|587|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,8) slot 20
+change board[4][8] to 5
+
+349|612|587|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (-1,-1) slot 21
+clear board[4][8] to make freecount=38
+clear board[3][8] to make freecount=39
+clear board[2][7] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][2] to make freecount=42
+clear board[1][7] to make freecount=43
+clear board[1][2] to make freecount=44
+change board[1][2] to 6
+
+349|612|587|
+516|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (1,7) slot 15
+change board[1][7] to 2
+
+349|612|587|
+516|487| 2 |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,2) slot 16
+change board[2][2] to 2
+
+349|612|587|
+516|487| 2 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (1,6) slot 17
+change board[1][6] to 3
+
+349|612|587|
+516|487|32 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,8) slot 18
+change board[1][8] to 9
+
+349|612|587|
+516|487|329|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (2,7) slot 19
+change board[2][7] to 1
+
+349|612|587|
+516|487|329|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 6
+
+349|612|587|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 1
+
+349|612|587|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|587|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+change board[2][7] to 6
+
+349|612|587|
+516|487|329|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 1
+
+349|612|587|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 6
+
+349|612|587|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|587|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+clear board[1][8] to make freecount=40
+clear board[1][6] to make freecount=41
+change board[1][6] to 9
+
+349|612|587|
+516|487|92 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,8) slot 18
+change board[1][8] to 3
+
+349|612|587|
+516|487|923|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (2,7) slot 19
+change board[2][7] to 1
+
+349|612|587|
+516|487|923|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 6
+
+349|612|587|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 1
+
+349|612|587|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|587|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+change board[2][7] to 6
+
+349|612|587|
+516|487|923|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 1
+
+349|612|587|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 6
+
+349|612|587|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|587|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+clear board[1][8] to make freecount=40
+clear board[1][6] to make freecount=41
+clear board[2][2] to make freecount=42
+clear board[1][7] to make freecount=43
+clear board[1][2] to make freecount=44
+clear board[1][1] to make freecount=45
+change board[1][1] to 2
+
+349|612|587|
+52 |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,2) slot 14
+change board[1][2] to 6
+
+349|612|587|
+526|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (-1,-1) slot 15
+clear board[1][2] to make freecount=44
+clear board[1][1] to make freecount=45
+clear board[0][8] to make freecount=46
+clear board[0][7] to make freecount=47
+clear board[0][6] to make freecount=48
+change board[0][6] to 8
+
+349|612|8  |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (0,7) slot 11
+change board[0][7] to 5
+
+349|612|85 |
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (0,8) slot 12
+change board[0][8] to 7
+
+349|612|857|
+5  |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,1) slot 13
+change board[1][1] to 1
+
+349|612|857|
+51 |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,2) slot 14
+change board[1][2] to 2
+
+349|612|857|
+512|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (1,7) slot 15
+change board[1][7] to 6
+
+349|612|857|
+512|487| 6 |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,2) slot 16
+change board[2][2] to 6
+
+349|612|857|
+512|487| 6 |
+876|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 1
+
+349|612|857|
+512|487| 6 |
+876|593|4 1|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (2,7) slot 18
+change board[2][7] to 2
+
+349|612|857|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (3,8) slot 19
+change board[3][8] to 6
+
+349|612|857|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,8) slot 20
+change board[4][8] to 5
+
+349|612|857|
+512|487| 6 |
+876|593|421|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (-1,-1) slot 21
+clear board[4][8] to make freecount=38
+clear board[3][8] to make freecount=39
+clear board[2][7] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][2] to make freecount=42
+clear board[1][7] to make freecount=43
+clear board[1][2] to make freecount=44
+change board[1][2] to 6
+
+349|612|857|
+516|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (1,7) slot 15
+change board[1][7] to 2
+
+349|612|857|
+516|487| 2 |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,2) slot 16
+change board[2][2] to 2
+
+349|612|857|
+516|487| 2 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (1,6) slot 17
+change board[1][6] to 3
+
+349|612|857|
+516|487|32 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,8) slot 18
+change board[1][8] to 9
+
+349|612|857|
+516|487|329|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (2,7) slot 19
+change board[2][7] to 1
+
+349|612|857|
+516|487|329|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 6
+
+349|612|857|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 1
+
+349|612|857|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|857|
+516|487|329|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+change board[2][7] to 6
+
+349|612|857|
+516|487|329|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 1
+
+349|612|857|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 6
+
+349|612|857|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|857|
+516|487|329|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+clear board[1][8] to make freecount=40
+clear board[1][6] to make freecount=41
+change board[1][6] to 9
+
+349|612|857|
+516|487|92 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,8) slot 18
+change board[1][8] to 3
+
+349|612|857|
+516|487|923|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (2,7) slot 19
+change board[2][7] to 1
+
+349|612|857|
+516|487|923|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 6
+
+349|612|857|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 1
+
+349|612|857|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|857|
+516|487|923|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+change board[2][7] to 6
+
+349|612|857|
+516|487|923|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,8) slot 20
+change board[2][8] to 1
+
+349|612|857|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (3,8) slot 21
+change board[3][8] to 6
+
+349|612|857|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+349|612|857|
+516|487|923|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (-1,-1) slot 23
+clear board[4][8] to make freecount=36
+clear board[3][8] to make freecount=37
+clear board[2][8] to make freecount=38
+clear board[2][7] to make freecount=39
+clear board[1][8] to make freecount=40
+clear board[1][6] to make freecount=41
+clear board[2][2] to make freecount=42
+clear board[1][7] to make freecount=43
+clear board[1][2] to make freecount=44
+clear board[1][1] to make freecount=45
+change board[1][1] to 2
+
+349|612|857|
+52 |487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,2) slot 14
+change board[1][2] to 6
+
+349|612|857|
+526|487|   |
+87 |593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (-1,-1) slot 15
+clear board[1][2] to make freecount=44
+clear board[1][1] to make freecount=45
+clear board[0][8] to make freecount=46
+clear board[0][7] to make freecount=47
+clear board[0][6] to make freecount=48
+clear board[4][4] to make freecount=49
+clear board[1][3] to make freecount=50
+clear board[1][4] to make freecount=51
+clear board[2][5] to make freecount=52
+clear board[2][3] to make freecount=53
+clear board[0][5] to make freecount=54
+change board[0][5] to 8
+
+349|618|   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (1,4) slot 5
+change board[1][4] to 3
+
+349|618|   |
+5  | 37|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (2,5) slot 6
+change board[2][5] to 2
+
+349|618|   |
+5  | 37|   |
+87 | 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (1,3) slot 7
+change board[1][3] to 4
+
+349|618|   |
+5  |437|   |
+87 | 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (2,2) slot 8
+change board[2][2] to 6
+
+349|618|   |
+5  |437|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (1,2) slot 9
+change board[1][2] to 2
+
+349|618|   |
+5 2|437|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (1,1) slot 10
+change board[1][1] to 1
+
+349|618|   |
+512|437|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (2,3) slot 11
+change board[2][3] to 5
+
+349|618|   |
+512|437|   |
+876|592|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (2,7) slot 12
+change board[2][7] to 1
+
+349|618|   |
+512|437|   |
+876|592|41 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (2,8) slot 13
+change board[2][8] to 3
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (4,4) slot 14
+change board[4][4] to 8
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64| 8 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (4,3) slot 15
+change board[4][3] to 1
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|18 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (4,0) slot 16
+change board[4][0] to 2
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|18 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (4,5) slot 17
+change board[4][5] to 3
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,8) slot 18
+change board[4][8] to 5
+
+349|618|   |
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (0,8) slot 19
+change board[0][8] to 7
+
+349|618|  7|
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (8,7) slot 20
+change board[8][7] to 6
+
+349|618|  7|
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=21
+next square candidates (1,7) slot 21
+change board[1][7] to 8
+
+349|618|  7|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=22
+next square candidates (7,7) slot 22
+change board[7][7] to 5
+
+349|618|  7|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=23
+next square candidates (0,7) slot 23
+change board[0][7] to 2
+
+349|618| 27|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=24
+next square candidates (0,6) slot 24
+change board[0][6] to 5
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=25
+next square candidates (3,7) slot 25
+change board[3][7] to 4
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=26
+next square candidates (7,1) slot 26
+change board[7][1] to 9
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|183|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=27
+next square candidates (5,1) slot 27
+change board[5][1] to 5
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|183|795|
+ 5 | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=28
+next square candidates (5,2) slot 28
+change board[5][2] to 7
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|183|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=29
+next square candidates (3,2) slot 29
+change board[3][2] to 3
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|183|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=30
+next square candidates (5,3) slot 30
+change board[5][3] to 9
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=31
+next square candidates (3,3) slot 31
+change board[3][3] to 7
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|75 | 4 |
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=32
+next square candidates (3,5) slot 32
+change board[3][5] to 6
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|756| 4 |
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=33
+next square candidates (3,8) slot 33
+change board[3][8] to 1
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|756| 41|
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=34
+next square candidates (3,0) slot 34
+change board[3][0] to 9
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756| 41|
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=35
+next square candidates (3,6) slot 35
+change board[3][6] to 2
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=36
+next square candidates (5,0) slot 36
+change board[5][0] to 1
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=37
+next square candidates (5,5) slot 37
+change board[5][5] to 4
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924| 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=38
+next square candidates (5,8) slot 38
+change board[5][8] to 6
+
+349|618|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=39
+next square candidates (1,8) slot 39
+change board[1][8] to 9
+
+349|618|527|
+512|437| 89|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=40
+next square candidates (1,6) slot 40
+change board[1][6] to 6
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=41
+next square candidates (5,6) slot 41
+change board[5][6] to 8
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924|836|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=42
+next square candidates (6,0) slot 42
+change board[6][0] to 6
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924|836|
+-----------
+6 1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=43
+next square candidates (6,3) slot 43
+change board[6][3] to 2
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924|836|
+-----------
+6 1|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=44
+next square candidates (6,1) slot 44
+change board[6][1] to 3
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924|836|
+-----------
+631|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=45
+next square candidates (6,5) slot 45
+change board[6][5] to 9
+
+349|618|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|183|795|
+157|924|836|
+-----------
+631|249| 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=46
+next square candidates (-1,-1) slot 46
+clear board[6][5] to make freecount=13
+clear board[6][1] to make freecount=14
+clear board[6][3] to make freecount=15
+clear board[6][0] to make freecount=16
+clear board[5][6] to make freecount=17
+clear board[1][6] to make freecount=18
+clear board[1][8] to make freecount=19
+clear board[5][8] to make freecount=20
+clear board[5][5] to make freecount=21
+clear board[5][0] to make freecount=22
+clear board[3][6] to make freecount=23
+clear board[3][0] to make freecount=24
+clear board[3][8] to make freecount=25
+clear board[3][5] to make freecount=26
+clear board[3][3] to make freecount=27
+clear board[5][3] to make freecount=28
+clear board[3][2] to make freecount=29
+clear board[5][2] to make freecount=30
+clear board[5][1] to make freecount=31
+clear board[7][1] to make freecount=32
+clear board[3][7] to make freecount=33
+clear board[0][6] to make freecount=34
+clear board[0][7] to make freecount=35
+clear board[7][7] to make freecount=36
+clear board[1][7] to make freecount=37
+clear board[8][7] to make freecount=38
+clear board[0][8] to make freecount=39
+clear board[4][8] to make freecount=40
+clear board[4][5] to make freecount=41
+clear board[4][0] to make freecount=42
+clear board[4][3] to make freecount=43
+clear board[4][4] to make freecount=44
+clear board[2][8] to make freecount=45
+clear board[2][7] to make freecount=46
+clear board[2][3] to make freecount=47
+clear board[1][1] to make freecount=48
+clear board[1][2] to make freecount=49
+clear board[2][2] to make freecount=50
+clear board[1][3] to make freecount=51
+clear board[2][5] to make freecount=52
+clear board[1][4] to make freecount=53
+clear board[0][5] to make freecount=54
+clear board[0][1] to make freecount=55
+clear board[0][4] to make freecount=56
+change board[0][4] to 8
+
+3 9|68 |   |
+5  |  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=3
+next square candidates (1,2) slot 3
+change board[1][2] to 2
+
+3 9|68 |   |
+5 2|  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=4
+next square candidates (2,2) slot 4
+change board[2][2] to 6
+
+3 9|68 |   |
+5 2|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (0,1) slot 5
+change board[0][1] to 1
+
+319|68 |   |
+5 2|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (1,1) slot 6
+change board[1][1] to 4
+
+319|68 |   |
+542|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (1,3) slot 7
+change board[1][3] to 1
+
+319|68 |   |
+542|1 7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (1,4) slot 8
+change board[1][4] to 3
+
+319|68 |   |
+542|137|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (2,5) slot 9
+change board[2][5] to 2
+
+319|68 |   |
+542|137|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,5) slot 10
+change board[0][5] to 4
+
+319|684|   |
+542|137|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (2,3) slot 11
+change board[2][3] to 5
+
+319|684|   |
+542|137|   |
+876|592|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (2,7) slot 12
+change board[2][7] to 1
+
+319|684|   |
+542|137|   |
+876|592|41 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (2,8) slot 13
+change board[2][8] to 3
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (4,3) slot 14
+change board[4][3] to 8
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|8  |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (4,4) slot 15
+change board[4][4] to 1
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+ 64|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (4,0) slot 16
+change board[4][0] to 2
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (4,5) slot 17
+change board[4][5] to 3
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,8) slot 18
+change board[4][8] to 5
+
+319|684|   |
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (0,8) slot 19
+change board[0][8] to 7
+
+319|684|  7|
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (8,7) slot 20
+change board[8][7] to 6
+
+319|684|  7|
+542|137|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=21
+next square candidates (1,7) slot 21
+change board[1][7] to 8
+
+319|684|  7|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=22
+next square candidates (7,7) slot 22
+change board[7][7] to 5
+
+319|684|  7|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=23
+next square candidates (0,7) slot 23
+change board[0][7] to 2
+
+319|684| 27|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=24
+next square candidates (0,6) slot 24
+change board[0][6] to 5
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=25
+next square candidates (3,7) slot 25
+change board[3][7] to 4
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=26
+next square candidates (7,1) slot 26
+change board[7][1] to 9
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=27
+next square candidates (5,1) slot 27
+change board[5][1] to 5
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 5 | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=28
+next square candidates (5,2) slot 28
+change board[5][2] to 7
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=29
+next square candidates (3,2) slot 29
+change board[3][2] to 3
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=30
+next square candidates (6,0) slot 30
+change board[6][0] to 6
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+6 1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=31
+next square candidates (6,5) slot 31
+change board[6][5] to 9
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+6 1| 49| 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=32
+next square candidates (3,5) slot 32
+change board[3][5] to 6
+
+319|684|527|
+542|137| 8 |
+876|592|413|
+-----------
+ 83| 56| 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+6 1| 49| 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=33
+next square candidates (-1,-1) slot 33
+clear board[3][5] to make freecount=26
+clear board[6][5] to make freecount=27
+clear board[6][0] to make freecount=28
+clear board[3][2] to make freecount=29
+clear board[5][2] to make freecount=30
+clear board[5][1] to make freecount=31
+clear board[7][1] to make freecount=32
+clear board[3][7] to make freecount=33
+clear board[0][6] to make freecount=34
+clear board[0][7] to make freecount=35
+clear board[7][7] to make freecount=36
+clear board[1][7] to make freecount=37
+clear board[8][7] to make freecount=38
+clear board[0][8] to make freecount=39
+clear board[4][8] to make freecount=40
+clear board[4][5] to make freecount=41
+clear board[4][0] to make freecount=42
+clear board[4][4] to make freecount=43
+clear board[4][3] to make freecount=44
+clear board[2][8] to make freecount=45
+clear board[2][7] to make freecount=46
+clear board[2][3] to make freecount=47
+clear board[0][5] to make freecount=48
+clear board[2][5] to make freecount=49
+clear board[1][4] to make freecount=50
+clear board[1][3] to make freecount=51
+clear board[1][1] to make freecount=52
+clear board[0][1] to make freecount=53
+change board[0][1] to 4
+
+349|68 |   |
+5 2|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (1,1) slot 6
+change board[1][1] to 1
+
+349|68 |   |
+512|  7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (1,3) slot 7
+change board[1][3] to 4
+
+349|68 |   |
+512|4 7|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (1,4) slot 8
+change board[1][4] to 3
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (4,4) slot 9
+change board[4][4] to 1
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (4,0) slot 10
+change board[4][0] to 2
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (4,3) slot 11
+change board[4][3] to 8
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (4,5) slot 12
+change board[4][5] to 3
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (4,8) slot 13
+change board[4][8] to 5
+
+349|68 |   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (0,5) slot 14
+change board[0][5] to 1
+
+349|681|   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (0,8) slot 15
+change board[0][8] to 7
+
+349|681|  7|
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,5) slot 16
+change board[2][5] to 2
+
+349|681|  7|
+512|437|   |
+876| 92|4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,3) slot 17
+change board[2][3] to 5
+
+349|681|  7|
+512|437|   |
+876|592|4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (2,7) slot 18
+change board[2][7] to 1
+
+349|681|  7|
+512|437|   |
+876|592|41 |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (2,8) slot 19
+change board[2][8] to 3
+
+349|681|  7|
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (8,7) slot 20
+change board[8][7] to 6
+
+349|681|  7|
+512|437|   |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=21
+next square candidates (1,7) slot 21
+change board[1][7] to 8
+
+349|681|  7|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=22
+next square candidates (7,7) slot 22
+change board[7][7] to 5
+
+349|681|  7|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=23
+next square candidates (0,7) slot 23
+change board[0][7] to 2
+
+349|681| 27|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=24
+next square candidates (0,6) slot 24
+change board[0][6] to 5
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=25
+next square candidates (3,7) slot 25
+change board[3][7] to 4
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=26
+next square candidates (7,1) slot 26
+change board[7][1] to 9
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=27
+next square candidates (5,1) slot 27
+change board[5][1] to 5
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 5 | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=28
+next square candidates (5,2) slot 28
+change board[5][2] to 7
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=29
+next square candidates (3,2) slot 29
+change board[3][2] to 3
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=30
+next square candidates (5,3) slot 30
+change board[5][3] to 9
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=31
+next square candidates (3,3) slot 31
+change board[3][3] to 7
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|75 | 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=32
+next square candidates (3,5) slot 32
+change board[3][5] to 6
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|756| 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=33
+next square candidates (3,8) slot 33
+change board[3][8] to 1
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+ 83|756| 41|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=34
+next square candidates (3,0) slot 34
+change board[3][0] to 9
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756| 41|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=35
+next square candidates (3,6) slot 35
+change board[3][6] to 2
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=36
+next square candidates (5,0) slot 36
+change board[5][0] to 1
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=37
+next square candidates (5,5) slot 37
+change board[5][5] to 4
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924| 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=38
+next square candidates (5,8) slot 38
+change board[5][8] to 6
+
+349|681|527|
+512|437| 8 |
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=39
+next square candidates (1,8) slot 39
+change board[1][8] to 9
+
+349|681|527|
+512|437| 89|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=40
+next square candidates (1,6) slot 40
+change board[1][6] to 6
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=41
+next square candidates (5,6) slot 41
+change board[5][6] to 8
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=42
+next square candidates (6,0) slot 42
+change board[6][0] to 6
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=43
+next square candidates (6,3) slot 43
+change board[6][3] to 2
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=44
+next square candidates (6,1) slot 44
+change board[6][1] to 3
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=45
+next square candidates (6,5) slot 45
+change board[6][5] to 9
+
+349|681|527|
+512|437|689|
+876|592|413|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|249| 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=46
+next square candidates (-1,-1) slot 46
+clear board[6][5] to make freecount=13
+clear board[6][1] to make freecount=14
+clear board[6][3] to make freecount=15
+clear board[6][0] to make freecount=16
+clear board[5][6] to make freecount=17
+clear board[1][6] to make freecount=18
+clear board[1][8] to make freecount=19
+clear board[5][8] to make freecount=20
+clear board[5][5] to make freecount=21
+clear board[5][0] to make freecount=22
+clear board[3][6] to make freecount=23
+clear board[3][0] to make freecount=24
+clear board[3][8] to make freecount=25
+clear board[3][5] to make freecount=26
+clear board[3][3] to make freecount=27
+clear board[5][3] to make freecount=28
+clear board[3][2] to make freecount=29
+clear board[5][2] to make freecount=30
+clear board[5][1] to make freecount=31
+clear board[7][1] to make freecount=32
+clear board[3][7] to make freecount=33
+clear board[0][6] to make freecount=34
+clear board[0][7] to make freecount=35
+clear board[7][7] to make freecount=36
+clear board[1][7] to make freecount=37
+clear board[8][7] to make freecount=38
+clear board[2][8] to make freecount=39
+clear board[2][7] to make freecount=40
+clear board[2][3] to make freecount=41
+clear board[2][5] to make freecount=42
+clear board[0][8] to make freecount=43
+clear board[0][5] to make freecount=44
+change board[0][5] to 2
+
+349|682|   |
+512|437|   |
+876| 9 |4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,5) slot 15
+change board[2][5] to 1
+
+349|682|   |
+512|437|   |
+876| 91|4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,3) slot 16
+change board[2][3] to 5
+
+349|682|   |
+512|437|   |
+876|591|4  |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,7) slot 17
+change board[2][7] to 2
+
+349|682|   |
+512|437|   |
+876|591|42 |
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (2,8) slot 18
+change board[2][8] to 3
+
+349|682|   |
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (0,6) slot 19
+change board[0][6] to 1
+
+349|682|1  |
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (0,7) slot 20
+change board[0][7] to 5
+
+349|682|15 |
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (0,8) slot 21
+change board[0][8] to 7
+
+349|682|157|
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (1,7) slot 22
+change board[1][7] to 6
+
+349|682|157|
+512|437| 6 |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (1,8) slot 23
+change board[1][8] to 9
+
+349|682|157|
+512|437| 69|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (1,6) slot 24
+change board[1][6] to 8
+
+349|682|157|
+512|437|869|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (5,6) slot 25
+change board[5][6] to 6
+
+349|682|157|
+512|437|869|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 |63 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (3,6) slot 26
+change board[3][6] to 2
+
+349|682|157|
+512|437|869|
+876|591|423|
+-----------
+ 8 | 5 |2  |
+264|813|795|
+   | 2 |63 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=27
+next square candidates (3,8) slot 27
+change board[3][8] to 1
+
+349|682|157|
+512|437|869|
+876|591|423|
+-----------
+ 8 | 5 |2 1|
+264|813|795|
+   | 2 |63 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=28
+next square candidates (-1,-1) slot 28
+clear board[3][8] to make freecount=31
+clear board[3][6] to make freecount=32
+clear board[5][6] to make freecount=33
+clear board[1][6] to make freecount=34
+clear board[1][8] to make freecount=35
+clear board[1][7] to make freecount=36
+change board[1][7] to 8
+
+349|682|157|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (1,6) slot 23
+change board[1][6] to 6
+
+349|682|157|
+512|437|68 |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (1,8) slot 24
+change board[1][8] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (3,6) slot 25
+change board[3][6] to 2
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 8 | 5 |2  |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (5,6) slot 26
+change board[5][6] to 8
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 8 | 5 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=27
+next square candidates (3,2) slot 27
+change board[3][2] to 3
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83| 5 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=28
+next square candidates (3,3) slot 28
+change board[3][3] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|75 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=29
+next square candidates (5,3) slot 29
+change board[5][3] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|75 |2  |
+264|813|795|
+   |92 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=30
+next square candidates (5,1) slot 30
+change board[5][1] to 5
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|75 |2  |
+264|813|795|
+ 5 |92 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=31
+next square candidates (5,2) slot 31
+change board[5][2] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|75 |2  |
+264|813|795|
+ 57|92 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=32
+next square candidates (5,0) slot 32
+change board[5][0] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|75 |2  |
+264|813|795|
+157|92 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=33
+next square candidates (3,0) slot 33
+change board[3][0] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|75 |2  |
+264|813|795|
+157|92 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=34
+next square candidates (5,8) slot 34
+change board[5][8] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|75 |2  |
+264|813|795|
+157|92 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=35
+next square candidates (3,8) slot 35
+change board[3][8] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|75 |2 1|
+264|813|795|
+157|92 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=36
+next square candidates (3,7) slot 36
+change board[3][7] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|75 |241|
+264|813|795|
+157|92 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=37
+next square candidates (3,5) slot 37
+change board[3][5] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|92 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=38
+next square candidates (5,5) slot 38
+change board[5][5] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=39
+next square candidates (6,0) slot 39
+change board[6][0] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=40
+next square candidates (6,3) slot 40
+change board[6][3] to 2
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1|24 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=41
+next square candidates (6,5) slot 41
+change board[6][5] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1|249| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=42
+next square candidates (6,1) slot 42
+change board[6][1] to 3
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|249| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=43
+next square candidates (6,6) slot 43
+change board[6][6] to 5
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|249|578|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=44
+next square candidates (7,1) slot 44
+change board[7][1] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|249|578|
+ 9 |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=45
+next square candidates (-1,-1) slot 45
+clear board[7][1] to make freecount=14
+clear board[6][6] to make freecount=15
+clear board[6][1] to make freecount=16
+clear board[6][5] to make freecount=17
+clear board[6][3] to make freecount=18
+clear board[6][0] to make freecount=19
+clear board[5][5] to make freecount=20
+clear board[3][5] to make freecount=21
+clear board[3][7] to make freecount=22
+clear board[3][8] to make freecount=23
+clear board[5][8] to make freecount=24
+clear board[3][0] to make freecount=25
+clear board[5][0] to make freecount=26
+clear board[5][2] to make freecount=27
+clear board[5][1] to make freecount=28
+clear board[5][3] to make freecount=29
+clear board[3][3] to make freecount=30
+change board[3][3] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|95 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=29
+next square candidates (5,3) slot 29
+change board[5][3] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|95 |2  |
+264|813|795|
+   |72 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=30
+next square candidates (5,2) slot 30
+change board[5][2] to 5
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|95 |2  |
+264|813|795|
+  5|72 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=31
+next square candidates (5,1) slot 31
+change board[5][1] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|95 |2  |
+264|813|795|
+ 95|72 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=32
+next square candidates (5,0) slot 32
+change board[5][0] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 83|95 |2  |
+264|813|795|
+195|72 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=33
+next square candidates (3,0) slot 33
+change board[3][0] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|95 |2  |
+264|813|795|
+195|72 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=34
+next square candidates (5,8) slot 34
+change board[5][8] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|95 |2  |
+264|813|795|
+195|72 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=35
+next square candidates (3,8) slot 35
+change board[3][8] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|95 |2 1|
+264|813|795|
+195|72 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=36
+next square candidates (3,7) slot 36
+change board[3][7] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|95 |241|
+264|813|795|
+195|72 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=37
+next square candidates (3,5) slot 37
+change board[3][5] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|72 |836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=38
+next square candidates (5,5) slot 38
+change board[5][5] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=39
+next square candidates (6,3) slot 39
+change board[6][3] to 2
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+  1|24 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=40
+next square candidates (6,5) slot 40
+change board[6][5] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+  1|249| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=41
+next square candidates (6,0) slot 41
+change board[6][0] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+6 1|249| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=42
+next square candidates (7,1) slot 42
+change board[7][1] to 5
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+6 1|249| 78|
+ 5 |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=43
+next square candidates (6,1) slot 43
+change board[6][1] to 3
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249| 78|
+ 5 |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=44
+next square candidates (6,6) slot 44
+change board[6][6] to 5
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+ 5 |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=45
+next square candidates (7,5) slot 45
+change board[7][5] to 8
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+ 5 |3 8|  2|
+   |  5|  4|
+-----------
+construct_candidates k=46
+next square candidates (7,2) slot 46
+change board[7][2] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+ 57|3 8|  2|
+   |  5|  4|
+-----------
+construct_candidates k=47
+next square candidates (7,4) slot 47
+change board[7][4] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+ 57|368|  2|
+   |  5|  4|
+-----------
+construct_candidates k=48
+next square candidates (7,6) slot 48
+change board[7][6] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+ 57|368|9 2|
+   |  5|  4|
+-----------
+construct_candidates k=49
+next square candidates (7,0) slot 49
+change board[7][0] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|9 2|
+   |  5|  4|
+-----------
+construct_candidates k=50
+next square candidates (7,7) slot 50
+change board[7][7] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+   |  5|  4|
+-----------
+construct_candidates k=51
+next square candidates (8,0) slot 51
+change board[8][0] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+9  |  5|  4|
+-----------
+construct_candidates k=52
+next square candidates (8,1) slot 52
+change board[8][1] to 2
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+92 |  5|  4|
+-----------
+construct_candidates k=53
+next square candidates (8,2) slot 53
+change board[8][2] to 8
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|  5|  4|
+-----------
+construct_candidates k=54
+next square candidates (8,3) slot 54
+change board[8][3] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|1 5|  4|
+-----------
+construct_candidates k=55
+next square candidates (8,4) slot 55
+change board[8][4] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|175|  4|
+-----------
+construct_candidates k=56
+next square candidates (8,6) slot 56
+change board[8][6] to 3
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|175|3 4|
+-----------
+construct_candidates k=57
+next square candidates (8,7) slot 57
+change board[8][7] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|175|364|
+-----------
+solution found!
+process solution
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+783|956|241|
+264|813|795|
+195|724|836|
+-----------
+631|249|578|
+457|368|912|
+928|175|364|
+-----------
+clear board[8][7] to make freecount=1
+clear board[8][6] to make freecount=2
+clear board[8][4] to make freecount=3
+clear board[8][3] to make freecount=4
+clear board[8][2] to make freecount=5
+clear board[8][1] to make freecount=6
+clear board[8][0] to make freecount=7
+clear board[7][7] to make freecount=8
+clear board[7][0] to make freecount=9
+clear board[7][6] to make freecount=10
+clear board[7][4] to make freecount=11
+clear board[7][2] to make freecount=12
+clear board[7][5] to make freecount=13
+clear board[6][6] to make freecount=14
+clear board[6][1] to make freecount=15
+clear board[7][1] to make freecount=16
+clear board[6][0] to make freecount=17
+clear board[6][5] to make freecount=18
+clear board[6][3] to make freecount=19
+clear board[5][5] to make freecount=20
+clear board[3][5] to make freecount=21
+clear board[3][7] to make freecount=22
+clear board[3][8] to make freecount=23
+clear board[5][8] to make freecount=24
+clear board[3][0] to make freecount=25
+clear board[5][0] to make freecount=26
+clear board[5][1] to make freecount=27
+clear board[5][2] to make freecount=28
+clear board[5][3] to make freecount=29
+clear board[3][3] to make freecount=30
+clear board[3][2] to make freecount=31
+change board[3][2] to 7
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 87| 5 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=28
+next square candidates (3,3) slot 28
+change board[3][3] to 9
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+ 87|95 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=29
+next square candidates (3,0) slot 29
+change board[3][0] to 1
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+187|95 |2  |
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=30
+next square candidates (3,8) slot 30
+change board[3][8] to 6
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+187|95 |2 6|
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=31
+next square candidates (3,5) slot 31
+change board[3][5] to 4
+
+349|682|157|
+512|437|689|
+876|591|423|
+-----------
+187|954|2 6|
+264|813|795|
+   | 2 |83 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=32
+next square candidates (-1,-1) slot 32
+clear board[3][5] to make freecount=27
+clear board[3][8] to make freecount=28
+clear board[3][0] to make freecount=29
+clear board[3][3] to make freecount=30
+clear board[3][2] to make freecount=31
+clear board[5][6] to make freecount=32
+clear board[3][6] to make freecount=33
+clear board[1][8] to make freecount=34
+clear board[1][6] to make freecount=35
+change board[1][6] to 9
+
+349|682|157|
+512|437|98 |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (1,8) slot 24
+change board[1][8] to 6
+
+349|682|157|
+512|437|986|
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (3,8) slot 25
+change board[3][8] to 1
+
+349|682|157|
+512|437|986|
+876|591|423|
+-----------
+ 8 | 5 |  1|
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[3][8] to make freecount=33
+clear board[1][8] to make freecount=34
+clear board[1][6] to make freecount=35
+clear board[1][7] to make freecount=36
+clear board[0][8] to make freecount=37
+clear board[0][7] to make freecount=38
+clear board[0][6] to make freecount=39
+change board[0][6] to 5
+
+349|682|5  |
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (0,7) slot 20
+change board[0][7] to 1
+
+349|682|51 |
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (0,8) slot 21
+change board[0][8] to 7
+
+349|682|517|
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (8,7) slot 22
+change board[8][7] to 6
+
+349|682|517|
+512|437|   |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=23
+next square candidates (1,7) slot 23
+change board[1][7] to 8
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=24
+next square candidates (3,7) slot 24
+change board[3][7] to 4
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 64|
+-----------
+construct_candidates k=25
+next square candidates (7,7) slot 25
+change board[7][7] to 5
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=26
+next square candidates (7,1) slot 26
+change board[7][1] to 9
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=27
+next square candidates (5,1) slot 27
+change board[5][1] to 5
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 5 | 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=28
+next square candidates (5,2) slot 28
+change board[5][2] to 7
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 8 | 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=29
+next square candidates (3,2) slot 29
+change board[3][2] to 3
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57| 2 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=30
+next square candidates (5,3) slot 30
+change board[5][3] to 9
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 83| 5 | 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=31
+next square candidates (3,3) slot 31
+change board[3][3] to 7
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 83|75 | 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=32
+next square candidates (3,5) slot 32
+change board[3][5] to 6
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 83|756| 4 |
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=33
+next square candidates (3,8) slot 33
+change board[3][8] to 1
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+ 83|756| 41|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=34
+next square candidates (3,0) slot 34
+change board[3][0] to 9
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+983|756| 41|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=35
+next square candidates (3,6) slot 35
+change board[3][6] to 2
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+ 57|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=36
+next square candidates (5,0) slot 36
+change board[5][0] to 1
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|92 | 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=37
+next square candidates (5,5) slot 37
+change board[5][5] to 4
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924| 3 |
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=38
+next square candidates (5,8) slot 38
+change board[5][8] to 6
+
+349|682|517|
+512|437| 8 |
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=39
+next square candidates (1,8) slot 39
+change board[1][8] to 9
+
+349|682|517|
+512|437| 89|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=40
+next square candidates (1,6) slot 40
+change board[1][6] to 6
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924| 36|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=41
+next square candidates (5,6) slot 41
+change board[5][6] to 8
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+  1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=42
+next square candidates (6,0) slot 42
+change board[6][0] to 6
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1| 4 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=43
+next square candidates (6,3) slot 43
+change board[6][3] to 2
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+6 1|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=44
+next square candidates (6,1) slot 44
+change board[6][1] to 3
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|24 | 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=45
+next square candidates (6,5) slot 45
+change board[6][5] to 9
+
+349|682|517|
+512|437|689|
+876|591|423|
+-----------
+983|756|241|
+264|813|795|
+157|924|836|
+-----------
+631|249| 78|
+ 9 |3  | 52|
+   |  5| 64|
+-----------
+construct_candidates k=46
+next square candidates (-1,-1) slot 46
+clear board[6][5] to make freecount=13
+clear board[6][1] to make freecount=14
+clear board[6][3] to make freecount=15
+clear board[6][0] to make freecount=16
+clear board[5][6] to make freecount=17
+clear board[1][6] to make freecount=18
+clear board[1][8] to make freecount=19
+clear board[5][8] to make freecount=20
+clear board[5][5] to make freecount=21
+clear board[5][0] to make freecount=22
+clear board[3][6] to make freecount=23
+clear board[3][0] to make freecount=24
+clear board[3][8] to make freecount=25
+clear board[3][5] to make freecount=26
+clear board[3][3] to make freecount=27
+clear board[5][3] to make freecount=28
+clear board[3][2] to make freecount=29
+clear board[5][2] to make freecount=30
+clear board[5][1] to make freecount=31
+clear board[7][1] to make freecount=32
+clear board[7][7] to make freecount=33
+clear board[3][7] to make freecount=34
+clear board[1][7] to make freecount=35
+clear board[8][7] to make freecount=36
+clear board[0][8] to make freecount=37
+clear board[0][7] to make freecount=38
+clear board[0][6] to make freecount=39
+clear board[2][8] to make freecount=40
+clear board[2][7] to make freecount=41
+clear board[2][3] to make freecount=42
+clear board[2][5] to make freecount=43
+clear board[0][5] to make freecount=44
+clear board[4][8] to make freecount=45
+clear board[4][5] to make freecount=46
+clear board[4][3] to make freecount=47
+clear board[4][0] to make freecount=48
+clear board[4][4] to make freecount=49
+clear board[1][4] to make freecount=50
+clear board[1][3] to make freecount=51
+clear board[1][1] to make freecount=52
+clear board[0][1] to make freecount=53
+clear board[2][2] to make freecount=54
+clear board[1][2] to make freecount=55
+change board[1][2] to 6
+
+3 9|68 |   |
+5 6|  7|   |
+87 | 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=4
+next square candidates (2,2) slot 4
+change board[2][2] to 2
+
+3 9|68 |   |
+5 6|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=5
+next square candidates (0,1) slot 5
+change board[0][1] to 1
+
+319|68 |   |
+5 6|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (1,1) slot 6
+change board[1][1] to 4
+
+319|68 |   |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (0,5) slot 7
+change board[0][5] to 2
+
+319|682|   |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (0,6) slot 8
+change board[0][6] to 5
+
+319|682|5  |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (-1,-1) slot 9
+clear board[0][6] to make freecount=50
+clear board[0][5] to make freecount=51
+change board[0][5] to 4
+
+319|684|   |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (0,6) slot 8
+change board[0][6] to 2
+
+319|684|2  |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (0,7) slot 9
+change board[0][7] to 5
+
+319|684|25 |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,8) slot 10
+change board[0][8] to 7
+
+319|684|257|
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,3) slot 11
+change board[1][3] to 1
+
+319|684|257|
+546|1 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (1,4) slot 12
+change board[1][4] to 3
+
+319|684|257|
+546|137|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (-1,-1) slot 13
+clear board[1][4] to make freecount=46
+clear board[1][3] to make freecount=47
+change board[1][3] to 2
+
+319|684|257|
+546|2 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (6,3) slot 12
+change board[6][3] to 9
+
+319|684|257|
+546|2 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,4) slot 13
+change board[1][4] to 1
+
+319|684|257|
+546|217|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,7) slot 14
+change board[1][7] to 8
+
+319|684|257|
+546|217| 8 |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+319|684|257|
+546|217| 8 |
+872|59 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,5) slot 16
+change board[2][5] to 3
+
+319|684|257|
+546|217| 8 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (4,4) slot 17
+change board[4][4] to 3
+
+319|684|257|
+546|217| 8 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,6) slot 18
+change board[1][6] to 3
+
+319|684|257|
+546|217|38 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (1,8) slot 19
+change board[1][8] to 9
+
+319|684|257|
+546|217|389|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,7) slot 20
+change board[2][7] to 1
+
+319|684|257|
+546|217|389|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 6
+
+319|684|257|
+546|217|389|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 1
+
+319|684|257|
+546|217|389|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (3,6) slot 23
+change board[3][6] to 6
+
+319|684|257|
+546|217|389|
+872|593|416|
+-----------
+ 8 | 5 |6 1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (3,5) slot 24
+change board[3][5] to 9
+
+319|684|257|
+546|217|389|
+872|593|416|
+-----------
+ 8 | 59|6 1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (4,8) slot 25
+change board[4][8] to 5
+
+319|684|257|
+546|217|389|
+872|593|416|
+-----------
+ 8 | 59|6 1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[4][8] to make freecount=33
+clear board[3][5] to make freecount=34
+clear board[3][6] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+change board[2][7] to 6
+
+319|684|257|
+546|217|389|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 1
+
+319|684|257|
+546|217|389|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 6
+
+319|684|257|
+546|217|389|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (3,6) slot 23
+change board[3][6] to 1
+
+319|684|257|
+546|217|389|
+872|593|461|
+-----------
+ 8 | 5 |1 6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (3,5) slot 24
+change board[3][5] to 9
+
+319|684|257|
+546|217|389|
+872|593|461|
+-----------
+ 8 | 59|1 6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (4,8) slot 25
+change board[4][8] to 5
+
+319|684|257|
+546|217|389|
+872|593|461|
+-----------
+ 8 | 59|1 6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[4][8] to make freecount=33
+clear board[3][5] to make freecount=34
+clear board[3][6] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+clear board[1][8] to make freecount=39
+clear board[1][6] to make freecount=40
+change board[1][6] to 9
+
+319|684|257|
+546|217|98 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (1,8) slot 19
+change board[1][8] to 3
+
+319|684|257|
+546|217|983|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,7) slot 20
+change board[2][7] to 1
+
+319|684|257|
+546|217|983|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 6
+
+319|684|257|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 1
+
+319|684|257|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (3,6) slot 23
+change board[3][6] to 6
+
+319|684|257|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |6 1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (3,5) slot 24
+change board[3][5] to 9
+
+319|684|257|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 59|6 1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (4,8) slot 25
+change board[4][8] to 5
+
+319|684|257|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 59|6 1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[4][8] to make freecount=33
+clear board[3][5] to make freecount=34
+clear board[3][6] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+change board[2][7] to 6
+
+319|684|257|
+546|217|983|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 1
+
+319|684|257|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 6
+
+319|684|257|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (3,6) slot 23
+change board[3][6] to 1
+
+319|684|257|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |1 6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (3,5) slot 24
+change board[3][5] to 9
+
+319|684|257|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 59|1 6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (4,8) slot 25
+change board[4][8] to 5
+
+319|684|257|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 59|1 6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[4][8] to make freecount=33
+clear board[3][5] to make freecount=34
+clear board[3][6] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+clear board[1][8] to make freecount=39
+clear board[1][6] to make freecount=40
+clear board[4][4] to make freecount=41
+clear board[2][5] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[1][7] to make freecount=44
+clear board[1][4] to make freecount=45
+change board[1][4] to 3
+
+319|684|257|
+546|237|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,5) slot 14
+change board[2][5] to 1
+
+319|684|257|
+546|237|   |
+872| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+319|684|257|
+546|237|   |
+872|591|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 6
+
+319|684|257|
+546|237|   |
+872|591|46 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,4) slot 18
+change board[4][4] to 1
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,0) slot 19
+change board[4][0] to 2
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,3) slot 20
+change board[4][3] to 8
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,5) slot 21
+change board[4][5] to 3
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (6,0) slot 23
+change board[6][0] to 6
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (6,5) slot 24
+change board[6][5] to 2
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (7,7) slot 25
+change board[7][7] to 1
+
+319|684|257|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  | 12|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (-1,-1) slot 26
+clear board[7][7] to make freecount=33
+clear board[6][5] to make freecount=34
+clear board[6][0] to make freecount=35
+clear board[4][8] to make freecount=36
+clear board[4][5] to make freecount=37
+clear board[4][3] to make freecount=38
+clear board[4][0] to make freecount=39
+clear board[4][4] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[2][5] to make freecount=44
+clear board[1][4] to make freecount=45
+clear board[6][3] to make freecount=46
+clear board[1][3] to make freecount=47
+clear board[0][8] to make freecount=48
+clear board[0][7] to make freecount=49
+clear board[0][6] to make freecount=50
+change board[0][6] to 5
+
+319|684|5  |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (0,7) slot 9
+change board[0][7] to 2
+
+319|684|52 |
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,8) slot 10
+change board[0][8] to 7
+
+319|684|527|
+546|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,3) slot 11
+change board[1][3] to 1
+
+319|684|527|
+546|1 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (1,4) slot 12
+change board[1][4] to 3
+
+319|684|527|
+546|137|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (-1,-1) slot 13
+clear board[1][4] to make freecount=46
+clear board[1][3] to make freecount=47
+change board[1][3] to 2
+
+319|684|527|
+546|2 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (6,3) slot 12
+change board[6][3] to 9
+
+319|684|527|
+546|2 7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (1,4) slot 13
+change board[1][4] to 1
+
+319|684|527|
+546|217|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (1,7) slot 14
+change board[1][7] to 8
+
+319|684|527|
+546|217| 8 |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+319|684|527|
+546|217| 8 |
+872|59 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,5) slot 16
+change board[2][5] to 3
+
+319|684|527|
+546|217| 8 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (4,4) slot 17
+change board[4][4] to 3
+
+319|684|527|
+546|217| 8 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (1,6) slot 18
+change board[1][6] to 3
+
+319|684|527|
+546|217|38 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (1,8) slot 19
+change board[1][8] to 9
+
+319|684|527|
+546|217|389|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (6,6) slot 20
+change board[6][6] to 6
+
+319|684|527|
+546|217|389|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 |678|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (6,0) slot 21
+change board[6][0] to 2
+
+319|684|527|
+546|217|389|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+2 1|94 |678|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (-1,-1) slot 22
+clear board[6][0] to make freecount=37
+clear board[6][6] to make freecount=38
+clear board[1][8] to make freecount=39
+clear board[1][6] to make freecount=40
+change board[1][6] to 9
+
+319|684|527|
+546|217|98 |
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (1,8) slot 19
+change board[1][8] to 3
+
+319|684|527|
+546|217|983|
+872|593|4  |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (2,7) slot 20
+change board[2][7] to 1
+
+319|684|527|
+546|217|983|
+872|593|41 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 6
+
+319|684|527|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 1
+
+319|684|527|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (4,8) slot 23
+change board[4][8] to 5
+
+319|684|527|
+546|217|983|
+872|593|416|
+-----------
+ 8 | 5 |  1|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (-1,-1) slot 24
+clear board[4][8] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+change board[2][7] to 6
+
+319|684|527|
+546|217|983|
+872|593|46 |
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (2,8) slot 21
+change board[2][8] to 1
+
+319|684|527|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |   |
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (3,8) slot 22
+change board[3][8] to 6
+
+319|684|527|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (4,8) slot 23
+change board[4][8] to 5
+
+319|684|527|
+546|217|983|
+872|593|461|
+-----------
+ 8 | 5 |  6|
+ 64| 3 |795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (-1,-1) slot 24
+clear board[4][8] to make freecount=35
+clear board[3][8] to make freecount=36
+clear board[2][8] to make freecount=37
+clear board[2][7] to make freecount=38
+clear board[1][8] to make freecount=39
+clear board[1][6] to make freecount=40
+clear board[4][4] to make freecount=41
+clear board[2][5] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[1][7] to make freecount=44
+clear board[1][4] to make freecount=45
+change board[1][4] to 3
+
+319|684|527|
+546|237|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,5) slot 14
+change board[2][5] to 1
+
+319|684|527|
+546|237|   |
+872| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (2,3) slot 15
+change board[2][3] to 5
+
+319|684|527|
+546|237|   |
+872|591|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (2,7) slot 16
+change board[2][7] to 6
+
+319|684|527|
+546|237|   |
+872|591|46 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (2,8) slot 17
+change board[2][8] to 3
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,4) slot 18
+change board[4][4] to 1
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,0) slot 19
+change board[4][0] to 2
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (4,3) slot 20
+change board[4][3] to 8
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=21
+next square candidates (4,5) slot 21
+change board[4][5] to 3
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=22
+next square candidates (4,8) slot 22
+change board[4][8] to 5
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=23
+next square candidates (6,0) slot 23
+change board[6][0] to 6
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|94 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=24
+next square candidates (6,5) slot 24
+change board[6][5] to 2
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942| 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=25
+next square candidates (6,6) slot 25
+change board[6][6] to 3
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+6 1|942|378|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=26
+next square candidates (6,1) slot 26
+change board[6][1] to 5
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+651|942|378|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=27
+next square candidates (5,1) slot 27
+change board[5][1] to 9
+
+319|684|527|
+546|237|   |
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+ 9 | 2 | 3 |
+-----------
+651|942|378|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=28
+next square candidates (-1,-1) slot 28
+clear board[5][1] to make freecount=31
+clear board[6][1] to make freecount=32
+clear board[6][6] to make freecount=33
+clear board[6][5] to make freecount=34
+clear board[6][0] to make freecount=35
+clear board[4][8] to make freecount=36
+clear board[4][5] to make freecount=37
+clear board[4][3] to make freecount=38
+clear board[4][0] to make freecount=39
+clear board[4][4] to make freecount=40
+clear board[2][8] to make freecount=41
+clear board[2][7] to make freecount=42
+clear board[2][3] to make freecount=43
+clear board[2][5] to make freecount=44
+clear board[1][4] to make freecount=45
+clear board[6][3] to make freecount=46
+clear board[1][3] to make freecount=47
+clear board[0][8] to make freecount=48
+clear board[0][7] to make freecount=49
+clear board[0][6] to make freecount=50
+clear board[0][5] to make freecount=51
+clear board[1][1] to make freecount=52
+clear board[0][1] to make freecount=53
+change board[0][1] to 4
+
+349|68 |   |
+5 6|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=6
+next square candidates (1,1) slot 6
+change board[1][1] to 1
+
+349|68 |   |
+516|  7|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=7
+next square candidates (1,4) slot 7
+change board[1][4] to 3
+
+349|68 |   |
+516| 37|   |
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=8
+next square candidates (1,8) slot 8
+change board[1][8] to 9
+
+349|68 |   |
+516| 37|  9|
+872| 9 |4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=9
+next square candidates (2,5) slot 9
+change board[2][5] to 1
+
+349|68 |   |
+516| 37|  9|
+872| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=10
+next square candidates (0,5) slot 10
+change board[0][5] to 2
+
+349|682|   |
+516| 37|  9|
+872| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=11
+next square candidates (1,3) slot 11
+change board[1][3] to 4
+
+349|682|   |
+516|437|  9|
+872| 91|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=12
+next square candidates (2,3) slot 12
+change board[2][3] to 5
+
+349|682|   |
+516|437|  9|
+872|591|4  |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=13
+next square candidates (2,7) slot 13
+change board[2][7] to 6
+
+349|682|   |
+516|437|  9|
+872|591|46 |
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=14
+next square candidates (2,8) slot 14
+change board[2][8] to 3
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64|   |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=15
+next square candidates (4,4) slot 15
+change board[4][4] to 1
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+ 64| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=16
+next square candidates (4,0) slot 16
+change board[4][0] to 2
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264| 1 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=17
+next square candidates (4,3) slot 17
+change board[4][3] to 8
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|81 |79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=18
+next square candidates (4,5) slot 18
+change board[4][5] to 3
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|79 |
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=19
+next square candidates (4,8) slot 19
+change board[4][8] to 5
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5|  4|
+-----------
+construct_candidates k=20
+next square candidates (8,7) slot 20
+change board[8][7] to 1
+
+349|682|   |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 14|
+-----------
+construct_candidates k=21
+next square candidates (0,7) slot 21
+change board[0][7] to 5
+
+349|682| 5 |
+516|437|  9|
+872|591|463|
+-----------
+ 8 | 5 |   |
+264|813|795|
+   | 2 | 3 |
+-----------
+  1| 4 | 78|
+   |3  |  2|
+   |  5| 14|
+-----------
+construct_candidates k=22
+next square candidates (-1,-1) slot 22
+clear board[0][7] to make freecount=37
+clear board[8][7] to make freecount=38
+clear board[4][8] to make freecount=39
+clear board[4][5] to make freecount=40
+clear board[4][3] to make freecount=41
+clear board[4][0] to make freecount=42
+clear board[4][4] to make freecount=43
+clear board[2][8] to make freecount=44
+clear board[2][7] to make freecount=45
+clear board[2][3] to make freecount=46
+clear board[1][3] to make freecount=47
+clear board[0][5] to make freecount=48
+clear board[2][5] to make freecount=49
+clear board[1][8] to make freecount=50
+clear board[1][4] to make freecount=51
+clear board[1][1] to make freecount=52
+clear board[0][1] to make freecount=53
+clear board[2][2] to make freecount=54
+clear board[1][2] to make freecount=55
+clear board[0][4] to make freecount=56
+clear board[0][2] to make freecount=57

@@ -1,0 +1,200 @@
+
+
+Stevens-MacBook:adm-code stevenskiena$ ./tsp-astar < tsp-examples/tsp5
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+ evaluations = 22 backtracking lb_flag=0 
+ constructions = 42 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 13199.2
+ evaluations = 11  branch-and-bound lb_flag=0 
+ constructions = 38  maxqueuesize = 21 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 13199.2
+ evaluations = 17 backtracking lb_flag=1 
+ constructions = 40 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 13199.2
+ evaluations = 7  branch-and-bound lb_flag=1 
+ constructions = 31  maxqueuesize = 17 
+ n = 5    1 3 5 4 2
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 13199.2
+
+
+
+
+Stevens-MacBook:adm-code stevenskiena$ ./tsp-astar < tsp-examples/tsp6
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+6 7608 4458
+ evaluations = 86 backtracking lb_flag=0 
+ constructions = 199 
+ n = 6    1 3 2 4 5 6
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18061.1
+ evaluations = 28  branch-and-bound lb_flag=0 
+ constructions = 165  maxqueuesize = 105 
+ n = 6    1 3 2 4 5 6
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18061.1
+ evaluations = 62 backtracking lb_flag=1 
+ constructions = 176 
+ n = 6    1 3 2 4 5 6
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18061.1
+ evaluations = 20  branch-and-bound lb_flag=1 
+ constructions = 127  maxqueuesize = 90 
+ n = 6    1 3 2 4 5 6
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18061.1
+Stevens-MacBook:adm-code stevenskiena$ 
+
+
+Stevens-MacBook:adm-code stevenskiena$ ./tsp-astar < tsp-examples/tsp7
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+6 7608 4458
+7 7573 3716
+ evaluations = 217 backtracking lb_flag=0 
+ constructions = 981 
+ n = 7    1 3 2 4 5 6 7
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18087.9
+ evaluations = 51  branch-and-bound lb_flag=0 
+ constructions = 576  maxqueuesize = 530 
+ n = 7    1 3 2 4 5 6 7
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18087.9
+ evaluations = 153 backtracking lb_flag=1 
+ constructions = 808 
+ n = 7    1 3 2 4 5 6 7
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18087.9
+ evaluations = 42  branch-and-bound lb_flag=1 
+ constructions = 437  maxqueuesize = 441 
+ n = 7    1 3 2 4 5 6 7
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18087.9
+
+
+
+
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+6 7608 4458
+7 7573 3716
+8 7265 1268
+ evaluations = 669 backtracking lb_flag=0 
+ constructions = 5180 
+ n = 8    1 3 2 4 5 6 7 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18704.0
+ evaluations = 111  branch-and-bound lb_flag=0 
+ constructions = 2484  maxqueuesize = 3008 
+ n = 8    1 8 7 6 5 4 2 3
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18704.0
+ evaluations = 433 backtracking lb_flag=1 
+ constructions = 3988 
+ n = 8    1 3 2 4 5 6 7 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18704.0
+ evaluations = 85  branch-and-bound lb_flag=1 
+ constructions = 1753  maxqueuesize = 2332 
+ n = 8    1 8 7 6 5 4 2 3
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18704.0
+Stevens-MacBook:adm-code stevenskiena$ 
+
+
+
+./tsp-astar < tsp-examples/tsp9
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+6 7608 4458
+7 7573 3716
+8 7265 1268
+9 6898 1885
+ evaluations = 2509 backtracking lb_flag=0 
+ constructions = 28852 
+ n = 9    1 3 2 4 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18906.1
+ evaluations = 354  branch-and-bound lb_flag=0 
+ constructions = 12213  maxqueuesize = 17418 
+ n = 9    1 3 2 4 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18906.1
+ evaluations = 1619 backtracking lb_flag=1 
+ constructions = 21040 
+ n = 9    1 3 2 4 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 18906.1
+ evaluations = 264  branch-and-bound lb_flag=1 
+ constructions = 8352  maxqueuesize = 12757 
+ n = 9    1 3 2 4 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 18906.1
+
+
+
+./tsp-astar < tsp-examples/tsp10
+1 6734 1453
+2 2233 10
+3 5530 1424
+4 401 841
+5 3082 1644
+6 7608 4458
+7 7573 3716
+8 7265 1268
+9 6898 1885
+10 1112 2049
+ evaluations = 5042 backtracking lb_flag=0 
+ constructions = 116868 
+ n = 10    1 3 2 4 10 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 19520.3
+ evaluations = 655  branch-and-bound lb_flag=0 
+ constructions = 39314  maxqueuesize = 73875 
+ n = 10    1 8 9 7 6 5 10 4 2 3
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 19520.3
+
+
+ evaluations = 3025 backtracking lb_flag=1 
+ constructions = 72369 
+ n = 10    1 3 2 4 10 5 6 7 9 8
+------------------------------------------------------
+OPTIMAL SOLUTION COST = 19520.3
+ evaluations = 475  branch-and-bound lb_flag=1 
+ constructions = 22917  maxqueuesize = 45494 
+ n = 10    1 8 9 7 6 5 10 4 2 3
+------------------------------------------------------
+OPTIMAL B-AND-B SOLUTION COST = 19520.3
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+void make_move(int a[], int k, boardtype *board) {
+    fill_square(board->move[k], a[k], board);
+}
+
+void unmake_move(int a[], int k, boardtype *board) {
+    free_square(board->move[k], board);
+}

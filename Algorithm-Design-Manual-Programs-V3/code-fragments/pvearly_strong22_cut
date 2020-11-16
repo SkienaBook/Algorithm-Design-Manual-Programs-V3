@@ -1,0 +1,3 @@
+void process_vertex_early2(int v) {
+    printf(" %d", v);
+}

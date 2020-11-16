@@ -1,0 +1,28 @@
+bool sum[MAXN+1][MAXSUM+1];     /* table of realizable sums */
+int parent[MAXN+1][MAXSUM+1];   /* table of parent pointers */
+
+bool subset_sum(int s[], int n, int k) {
+    int i, j;                     /* counters */
+
+    sum[0][0] = true;
+    parent[0][0] = NIL;
+
+    for (i = 1; i <= k; i++) {
+        sum[0][i] = false;
+	parent[0][i] = NIL;
+    }
+
+    for (i = 1; i <= n; i++) {    /* build table */
+        for (j = 0; j <= k; j++) {
+	    sum[i][j] = sum[i-1][j];
+            parent[i][j] = NIL;
+
+	    if ((j >= s[i-1]) && (sum[i-1][j-s[i-1]]==true)) {
+		sum[i][j] = true;
+		parent[i][j] = j-s[i-1];
+	    }
+        }
+    }
+
+    return(sum[n][k]);
+}

@@ -1,0 +1,8 @@
+void process_edge(int x, int y) {
+    if (color[x] == color[y]) {
+        bipartite = false;
+        printf("Warning: not bipartite, due to (%d,%d)\n", x, y);
+    }
+
+    color[y] = complement(color[x]);
+}

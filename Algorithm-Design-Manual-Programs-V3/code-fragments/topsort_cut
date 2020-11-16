@@ -1,0 +1,12 @@
+void topsort(graph *g) {
+    int i;    /* counter */
+
+    init_stack(&sorted);
+
+    for (i = 1; i <= g->nvertices; i++) {
+        if (!discovered[i]) {
+            dfs(g, i);
+        }
+    }
+    print_stack(&sorted);    /* report topological order */
+}

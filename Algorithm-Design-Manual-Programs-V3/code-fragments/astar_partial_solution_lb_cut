@@ -1,0 +1,14 @@
+double partial_solution_cost(tsp_solution *s, tsp_instance *t) {
+    int i;               /* counter */
+    double cost = 0.0;   /* cost of solution */
+
+    for (i = 1; i < (s->n); i++) {
+        cost = cost + distance(s, i, i + 1, t);
+    }
+
+    return(cost);
+}
+
+double partial_solution_lb(tsp_solution *s, tsp_instance *t) {
+     return(partial_solution_cost(s,t) + (t->n - s->n + 1) * minlb);
+}

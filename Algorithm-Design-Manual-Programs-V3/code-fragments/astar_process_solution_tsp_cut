@@ -1,0 +1,9 @@
+void process_solution(tsp_solution *s, int k, tsp_instance *input) {
+    s->cost = solution_cost(s,input);
+    if (s->cost < best_cost) {
+	best_cost = s->cost;
+        copy_solution(s,&best_solution);
+    }
+
+   evaluations ++;
+}

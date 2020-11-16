@@ -1,0 +1,13 @@
+void report_subset(int n, int k) {
+   if (k == 0) {
+	return;
+   }
+
+   if (parent[n][k] == NIL) {
+	report_subset(n-1,k);
+   }
+   else {
+	report_subset(n-1,parent[n][k]);
+   	printf(" %d ",k-parent[n][k]);
+   }
+}

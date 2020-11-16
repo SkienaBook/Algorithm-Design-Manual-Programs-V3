@@ -1,0 +1,8 @@
+input box width, box length, and plate radius:
+box width=4.000000, box length=4.000000, and plate radius=0.500000:
+dense packing = 14
+grid packing = 16
+(0,0) has 5 on top.
+(0,1) has 8 on top.
+(0,2) has 8 on top.
+(0,3) has 5 on top.

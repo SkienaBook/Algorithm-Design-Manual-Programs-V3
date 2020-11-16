@@ -1,0 +1,34 @@
+void partition(int s[], int n, int k) {
+    int p[MAXN+1];            /* prefix sums array */
+    int m[MAXN+1][MAXK+1];    /* DP table for values */
+    int d[MAXN+1][MAXK+1];    /* DP table for dividers */
+    int cost;                 /* test split cost */
+    int i,j,x;                /* counters */
+
+    p[0] = 0;                 /* construct prefix sums */
+    for (i = 1; i <= n; i++) {
+        p[i] = p[i-1] + s[i];
+    }
+
+    for (i = 1; i <= n; i++) {
+        m[i][1] = p[i];    /* initialize boundaries */
+    }
+
+    for (j = 1; j <= k; j++) {
+        m[1][j] = s[1];
+    }
+
+    for (i = 2; i <= n; i++) {   /* evaluate main recurrence */
+        for (j = 2; j <= k; j++) {
+            m[i][j] = MAXINT;
+            for (x = 1; x <= (i-1); x++) {
+                cost = max(m[x][j-1], p[i]-p[x]);
+                if (m[i][j] > cost) {
+                    m[i][j] = cost;
+                    d[i][j] = x;
+                }
+            }
+        }
+    }  
+    reconstruct_partition(s, d, n, k);    /* print book partition */
+}

@@ -1,0 +1,15 @@
+void articulation_vertices(graph *g) {
+    int i;    /* counter */
+
+    for (i = 1; i <= (g->nvertices); i++) { 
+        tree_out_degree[i] = 0;
+    }
+
+    initialize_search(g);
+
+    for (i = 1; i <= (g->nvertices); i++) {
+        if (!discovered[i]) {
+            dfs(g, i);
+        }
+    }
+}

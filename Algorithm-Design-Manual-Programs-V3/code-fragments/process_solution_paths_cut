@@ -1,0 +1,11 @@
+void process_solution(int a[], int k, paths_data *input) {
+    int i;    /* counter */
+
+    solution_count ++;
+
+    printf("{");
+    for (i = 1; i <= k; i++) {
+        printf(" %d",a[i]);
+    }
+    printf(" }\n");
+}

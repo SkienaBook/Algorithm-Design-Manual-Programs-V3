@@ -1,0 +1,6 @@
+int pq_parent(int n) {
+    if (n == 1) {
+        return(-1);
+    }
+    return((int) n/2);     /* implicitly take floor(n/2) */
+}

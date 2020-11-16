@@ -1,0 +1,15 @@
+void process_edge(int x, int y) {
+    int class;    /* edge class */
+
+    class = edge_classification(x, y);
+
+    if (class == TREE) {
+        tree_out_degree[x] = tree_out_degree[x] + 1;
+    }
+
+    if ((class == BACK) && (parent[x] != y)) {
+        if (entry_time[y] < entry_time[reachable_ancestor[x]]) {
+            reachable_ancestor[x] = y;
+        }
+    }
+}

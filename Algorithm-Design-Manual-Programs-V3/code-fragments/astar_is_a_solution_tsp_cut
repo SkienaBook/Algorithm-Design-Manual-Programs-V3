@@ -1,0 +1,3 @@
+int is_a_solution(tsp_solution *s, int k, tsp_instance *t) {
+    return (k == t->n);
+}

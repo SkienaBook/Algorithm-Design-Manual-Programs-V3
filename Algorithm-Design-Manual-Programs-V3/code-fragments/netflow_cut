@@ -1,0 +1,17 @@
+void netflow(flow_graph *g, int source, int sink) {
+    int volume;    /* weight of the augmenting path */
+
+    add_residual_edges(g);
+
+    initialize_search(g);
+    bfs(g, source);
+
+    volume = path_volume(g, source, sink);
+
+    while (volume > 0) {
+        augment_path(g, source, sink, volume);
+        initialize_search(g);
+        bfs(g, source);
+        volume = path_volume(g, source, sink);
+    }
+}

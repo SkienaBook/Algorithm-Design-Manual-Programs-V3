@@ -1,0 +1,18 @@
+void union_sets(union_find *s, int s1, int s2) {
+    int r1, r2;    /* roots of sets */
+
+    r1 = find(s, s1);
+    r2 = find(s, s2);
+
+    if (r1 == r2) {
+        return;    /* already in same set */
+    }
+
+    if (s->size[r1] >= s->size[r2]) {
+        s->size[r1] = s->size[r1] + s->size[r2];
+        s->p[r2] = r1;
+    } else {
+        s->size[r2] = s->size[r1] + s->size[r2];
+        s->p[r1] = r2;
+    }
+}

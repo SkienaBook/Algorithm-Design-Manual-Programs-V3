@@ -1,0 +1,9 @@
+1:  3 2
+2:  5 4 1
+3:  1
+4:  5 2
+5:  6 2 4
+6:  5
+bridge articulation vertex: 5 
+parent articulation vertex: 2 
+root articulation vertex: 1 

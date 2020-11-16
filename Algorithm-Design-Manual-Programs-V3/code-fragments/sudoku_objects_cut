@@ -1,0 +1,15 @@
+#define DIMENSION   9                     /* 9*9 board */
+#define NCELLS      DIMENSION*DIMENSION   /* 81 cells in 9-by-9-board */
+#define MAXCANDIDATES   DIMENSION+1       /* max digit choices per cell */
+
+bool finished = false;
+
+typedef struct {
+    int x, y;     /* row and column coordinates of square */
+} point;
+
+typedef struct {
+   int m[DIMENSION+1][DIMENSION+1];    /* board contents */
+   int freecount;                      /* open square count */
+   point move[NCELLS+1];               /* which cells have we filled? */
+} boardtype;

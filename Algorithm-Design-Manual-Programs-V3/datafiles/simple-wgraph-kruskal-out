@@ -1,0 +1,4 @@
+edge (1,4) in MST
+edge (2,4) in MST
+edge (2,3) in MST
+Out of Kruskal: weight=6 

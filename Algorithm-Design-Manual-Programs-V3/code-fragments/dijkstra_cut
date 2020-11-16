@@ -1,0 +1,46 @@
+int dijkstra(graph *g, int start) {
+    int i;                 /* counter */
+    edgenode *p;           /* temporary pointer */
+    bool intree[MAXV+1];   /* is the vertex in the tree yet? */
+    int distance[MAXV+1];  /* cost of adding to tree */
+    int v;                 /* current vertex to process */
+    int w;                 /* candidate next vertex */
+    int dist;              /* cheapest cost to enlarge tree */
+    int weight = 0;        /* tree weight */
+
+    for (i = 1; i <= g->nvertices; i++) {
+        intree[i] = false;
+        distance[i] = MAXINT;
+        parent[i] = -1;
+    }
+
+    distance[start] = 0;
+    v = start;
+
+    while (!intree[v]) {
+        intree[v] = true;
+        if (v != start) {
+            printf("edge (%d,%d) in tree \n",parent[v],v);
+            weight = weight + dist;
+        }
+        p = g->edges[v];
+        while (p != NULL) {
+            w = p->y;
+            if (distance[w] > (distance[v]+p->weight)) { /* CHANGED */
+                distance[w] = distance[v]+p->weight;     /* CHANGED */
+                parent[w] = v;                           /* CHANGED */
+            }
+            p = p->next;
+        }
+
+        dist = MAXINT;
+        for (i = 1; i <= g->nvertices; i++) {
+            if ((!intree[i]) && (dist > distance[i])) {
+                dist = distance[i];
+                v = i;
+            }
+        }
+    }
+
+    return(weight);
+}

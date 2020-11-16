@@ -1,0 +1,10 @@
+b wins in 1 steps 
+a wins in 3 steps 
+b wins in 6 steps 
+Warning: bad input value=90, suit=100
+Warning: bad input value=50, suit=102
+game tied after 1 steps, |a|=0 |b|=0 
+a wins in 14 steps 
+a and b tie in 100000 steps 
+a and b tie in 100000 steps 
+a and b tie in 100000 steps 

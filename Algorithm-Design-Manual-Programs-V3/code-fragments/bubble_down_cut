@@ -1,0 +1,21 @@
+void bubble_down(priority_queue *q, int p) {
+    int c;          /* child index */
+    int i;          /* counter */
+    int min_index;  /* index of lightest child */
+
+    c = pq_young_child(p);
+    min_index = p;
+
+    for (i = 0; i <= 1; i++) { 
+        if ((c + i) <= q->n) {
+            if (q->q[min_index] > q->q[c + i]) {
+                min_index = c + i;
+            }
+        }
+    }
+
+    if (min_index != p) {
+        pq_swap(q, p, min_index);
+        bubble_down(q, min_index);
+    }
+}

@@ -1,0 +1,11 @@
+void process_vertex_early2(int v) {
+    printf(" %d", v);
+}
+
+void process_vertex_late2(int v) {
+
+}
+
+void process_edge2(int x, int y) {
+
+}

@@ -1,0 +1,12 @@
+void make_heap_fast(priority_queue *q, item_type s[], int n) {
+    int i;             /* counter */
+
+    q->n = n;
+    for (i = 0; i < n; i++) {
+        q->q[i + 1] = s[i];
+    }
+
+    for (i = q->n/2; i >= 1; i--) {
+         bubble_down(q, i);
+    }
+}

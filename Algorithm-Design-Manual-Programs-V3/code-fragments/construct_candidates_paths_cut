@@ -1,0 +1,30 @@
+void construct_candidates(int a[], int k, paths_data *g, int c[], int *nc) {
+    int i;                /* counters */
+    bool in_sol[NMAX+1];  /* what's already in the solution? */
+    edgenode *p;          /* temporary pointer */
+    int last;             /* last vertex on current path */
+
+    for (i = 1; i <= g->g.nvertices; i++) {
+        in_sol[i] = false;
+    }
+
+    for (i = 0; i < k; i++) {
+        in_sol[a[i]] = true;
+    }
+
+    if (k == 1) {
+        c[0] = g->s;      /* always start from vertex s */
+        *nc = 1;
+    } else {
+        *nc = 0;
+        last = a[k-1];
+        p = g->g.edges[last];
+        while (p != NULL) {
+            if (!in_sol[ p->y ]) {
+                c[*nc] = p->y;
+                *nc= *nc + 1;
+            }
+            p = p->next;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+void strong_components(graph *g) {
+    int i;    /* counter */
+
+    for (i = 1; i <= (g->nvertices); i++) {
+        low[i] = i;
+        scc[i] = -1;
+    }
+
+    components_found = 0;
+
+    init_stack(&active);
+    initialize_search(g);
+
+    for (i = 1; i <= (g->nvertices); i++) {
+        if (!discovered[i]) {
+            dfs(g, i);
+        }
+    }
+}

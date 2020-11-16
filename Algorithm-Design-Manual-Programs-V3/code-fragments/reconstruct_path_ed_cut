@@ -1,0 +1,24 @@
+void reconstruct_path(char *s, char *t, int i, int j,
+                               cell m[MAXLEN+1][MAXLEN+1]) {
+    if (m[i][j].parent == -1) {
+        return;
+    }
+
+    if (m[i][j].parent == MATCH) {
+        reconstruct_path(s, t, i-1, j-1, m);
+        match_out(s, t, i, j);
+        return;
+    }
+
+    if (m[i][j].parent == INSERT) {
+        reconstruct_path(s, t, i, j-1, m);
+        insert_out(t, j);
+        return;
+    }
+
+    if (m[i][j].parent == DELETE) {
+        reconstruct_path(s, t, i-1, j, m);
+        delete_out(s, i);
+        return;
+    }
+}

@@ -1,0 +1,21 @@
+int kruskal(graph *g) {
+    int i;                  /* counter */
+    union_find s;           /* union-find data structure */
+    edge_pair e[MAXV+1];    /* array of edges data structure */
+    int weight=0;           /* cost of the minimum spanning tree */
+
+    union_find_init(&s, g->nvertices);
+
+    to_edge_array(g, e);
+    qsort(&e,g->nedges, sizeof(edge_pair), &weight_compare);
+
+    for (i = 0; i < (g->nedges); i++) {
+        if (!same_component(&s, e[i].x, e[i].y)) {
+            printf("edge (%d,%d) in MST\n", e[i].x, e[i].y);
+            weight = weight + e[i].weight;
+            union_sets(&s, e[i].x, e[i].y);
+        }
+    }
+
+    return(weight);
+}

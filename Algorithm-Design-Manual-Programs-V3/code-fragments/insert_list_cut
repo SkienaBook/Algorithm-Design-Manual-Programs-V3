@@ -1,0 +1,8 @@
+void insert_list(list **l, item_type x) {
+    list *p;    /* temporary pointer */
+
+    p = malloc(sizeof(list));
+    p->item = x;
+    p->next = *l;
+    *l = p;
+}

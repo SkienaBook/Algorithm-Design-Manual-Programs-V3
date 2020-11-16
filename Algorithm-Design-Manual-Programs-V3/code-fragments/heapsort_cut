@@ -1,0 +1,10 @@
+void heapsort_(item_type s[], int n) {
+    int i;               /* counters */
+    priority_queue q;    /* heap for heapsort */
+
+    make_heap(&q, s, n);
+
+    for (i = 0; i < n; i++) {
+        s[i] = extract_min(&q);
+    }
+}

@@ -1,0 +1,13 @@
+tree *find_minimum(tree *t) {
+    tree *min;    /* pointer to minimum */
+
+    if (t == NULL) {
+        return(NULL);
+    }
+
+    min = t;
+    while (min->left != NULL) {
+        min = min->left;
+    }
+    return(min);
+}

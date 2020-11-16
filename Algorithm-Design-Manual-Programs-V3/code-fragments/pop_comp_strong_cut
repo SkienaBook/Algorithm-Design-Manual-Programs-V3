@@ -1,0 +1,12 @@
+void pop_component(int v) {
+    int t;    /* vertex placeholder */
+
+    components_found = components_found + 1;
+    printf("%d is in component %d \n", v, components_found);
+
+    scc[v] = components_found;
+    while ((t = pop(&active)) != v) {
+        scc[t] = components_found;
+        printf("%d is in component %d \n", t, components_found);
+    }
+}

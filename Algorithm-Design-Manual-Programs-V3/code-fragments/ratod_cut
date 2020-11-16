@@ -1,0 +1,2 @@
+int reachable_ancestor[MAXV+1]; /* earliest reachable ancestor of v */
+int tree_out_degree[MAXV+1];    /* DFS tree outdegree of v */
